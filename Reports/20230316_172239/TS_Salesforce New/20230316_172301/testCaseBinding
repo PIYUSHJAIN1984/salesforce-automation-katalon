@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce","testCaseId":"Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead","testCaseId":"Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead","testCaseId":"Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner","testCaseId":"Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead","testCaseId":"Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application","testCaseId":"Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application","iterationVariableName":""}

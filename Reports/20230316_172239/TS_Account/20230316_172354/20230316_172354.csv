@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 111.0.0.0,,,2023-03-16 17:24:18,2023-03-16 17:25:28,1m - 9.518s,FAILED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/Account Management,Chrome 111.0.0.0,,,2023-03-16 17:24:19,2023-03-16 17:25:28,1m - 8.891s,FAILED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:24:19,2023-03-16 17:24:19,0.447s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:24:19,2023-03-16 17:24:19,0.042s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-16 17:24:20,2023-03-16 17:24:51,30.940s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/Account/Create an account""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:25:28,36.875s,FAILED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.011s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A9FFBC18818E63C07153DA7F2A9F5764",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.NavigateContactList",
+      "keywordMethods": [
+        {
+          "name": "checkContactList",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

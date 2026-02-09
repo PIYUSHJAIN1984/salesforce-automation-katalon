@@ -1,0 +1,134 @@
+2026-01-22 11:07:16.391 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-22 11:07:16.397 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\git\salesforce-katalon-sample\Include\config\log.properties
+2026-01-22 11:07:21.388 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Account
+2026-01-22 11:07:22.677 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-01-22 11:07:22.677 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-01-22 11:07:22.709 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-01-22 11:07:22.836 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-22 11:07:22.934 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-01-22 11:07:22.947 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-22 11:07:26.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:07:26.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1
+2026-01-22 11:07:29.216 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-01-22 11:07:32.422 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-01-22 11:07:33.050 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7880b116d98d742516672c69ec4630af
+java.lang.Exception: begin 0, end 1, length 0
+	at com.kms.katalon.core.util.internal.ExceptionsUtil.customException(ExceptionsUtil.java:90)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getBrowserVersion(DriverFactory.java:471)
+	at com.kms.katalon.core.webui.driver.DriverFactory.logBrowserRunData(DriverFactory.java:455)
+	at com.kms.katalon.core.webui.driver.DriverFactory.changeWebDriver(DriverFactory.java:170)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startExistingBrowserIfPossible(DriverFactory.java:753)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:571)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.getWebDriver(WebUIAbstractKeyword.groovy:161)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1254)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1030)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:1059)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:1042)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethodSafe(InvokerHelper.java:97)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:318)
+	at WebTestListener.sampleBeforeTestCase3(WebTestListener.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1254)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1030)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:814)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:318)
+	at TempTestSuite1769060213340.run(TempTestSuite1769060213340.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:254)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:360)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:349)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:652)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:398)
+	at groovy.ui.GroovyMain.access$1400(GroovyMain.java:68)
+	at groovy.ui.GroovyMain$GroovyCommand.process(GroovyMain.java:322)
+2026-01-22 11:07:33.066 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = 
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:142)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:117)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:39)
+2026-01-22 11:07:33.082 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-22 11:07:33.082 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-22 11:07:33.161 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-22 11:07:34.235 DEBUG testcase.Account Mgmt_1                  - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-01-22 11:07:34.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:07:34.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-01-22 11:07:34.702 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-01-22 11:07:36.226 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-01-22 11:07:36.806 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-01-22 11:07:37.406 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-01-22 11:07:40.089 DEBUG testcase.Login into Salesforce_1         - 5: waitForElementVisible(findTestObject("New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img"), 30)
+2026-01-22 11:07:47.004 DEBUG testcase.Login into Salesforce_1         - 6: enhancedClick(findTestObject("New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img"))
+2026-01-22 11:07:48.552 DEBUG testcase.Login into Salesforce_1         - 7: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 10)
+2026-01-22 11:07:53.203 DEBUG testcase.Login into Salesforce_1         - 8: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-01-22 11:07:53.586 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-01-22 11:07:53.938 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-01-22 11:07:53.938 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:07:53.964 DEBUG testcase.Account Mgmt_1                  - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Account/Create an Account_1"), [:], STOP_ON_FAILURE)
+2026-01-22 11:07:54.068 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:07:54.068 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1
+2026-01-22 11:07:54.396 DEBUG testcase.Create an Account_1             - 1: enhancedClick(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/img_img"))
+2026-01-22 11:07:55.033 DEBUG testcase.Create an Account_1             - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Recently Viewed  Accounts  Salesforce/div_New"))
+2026-01-22 11:07:58.254 DEBUG testcase.Create an Account_1             - 3: dynamicName = "User_" + System.currentTimeMillis()
+2026-01-22 11:07:58.646 DEBUG testcase.Create an Account_1             - 4: setText(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/input__Account Name"), dynamicName)
+2026-01-22 11:08:01.551 DEBUG testcase.Create an Account_1             - 5: setText(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Website"), "www.testtwo.com")
+2026-01-22 11:08:03.598 DEBUG testcase.Create an Account_1             - 6: click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/button_Type"))
+2026-01-22 11:08:04.746 DEBUG testcase.Create an Account_1             - 7: click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/span_Analyst"))
+2026-01-22 11:08:05.980 DEBUG testcase.Create an Account_1             - 8: setText(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/textarea_Description"), dynamicName)
+2026-01-22 11:08:07.894 DEBUG testcase.Create an Account_1             - 9: click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Search Accounts"))
+2026-01-22 11:08:08.676 DEBUG testcase.Create an Account_1             - 10: click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/span_testone"))
+2026-01-22 11:08:09.557 DEBUG testcase.Create an Account_1             - 11: click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/button_SaveEdit"))
+2026-01-22 11:08:10.682 DEBUG testcase.Create an Account_1             - 12: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_Account _test three_ was created"), "Account "" + dynamicName + "" was created.")
+2026-01-22 11:08:14.769 DEBUG testcase.Create an Account_1             - 13: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/lightning-formatted-text_test three"), dynamicName)
+2026-01-22 11:08:15.522 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1
+2026-01-22 11:08:15.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:08:15.570 DEBUG testcase.Account Mgmt_1                  - 3: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE)
+2026-01-22 11:08:15.709 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:08:15.709 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-01-22 11:08:16.173 DEBUG testcase.Close application               - 1: click(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_uiImage"))
+2026-01-22 11:08:17.474 DEBUG testcase.Close application               - 2: click(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/a_Log Out"))
+2026-01-22 11:08:18.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-01-22 11:08:18.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:08:18.881 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1
+2026-01-22 11:08:18.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-22 11:08:18.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Account
+2026-01-22 11:08:18.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

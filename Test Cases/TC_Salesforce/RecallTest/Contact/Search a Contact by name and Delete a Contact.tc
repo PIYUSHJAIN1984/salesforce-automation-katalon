@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search a Contact by name and Delete a Contact</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e38dcc6-65c2-47fc-bfbe-490d335d8363</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8a99af2-738c-4436-bcea-0ba8d8b75444</id>
+      <masked>false</masked>
+      <name>contactName</name>
+   </variable>
+</TestCaseEntity>

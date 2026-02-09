@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,,,,22-01-2026 11:09:48,22-01-2026 11:09:50,1.579s,SKIPPED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1,,,,22-01-2026 11:09:50,22-01-2026 11:09:50,0.440s,SKIPPED
+Start listener action : sampleBeforeTestCase3,,,,22-01-2026 11:09:50,22-01-2026 11:09:50,0.327s,PASSED
+Start listener action : sampleAfterTestCase2,,,,22-01-2026 11:09:50,22-01-2026 11:09:50,0.019s,PASSED

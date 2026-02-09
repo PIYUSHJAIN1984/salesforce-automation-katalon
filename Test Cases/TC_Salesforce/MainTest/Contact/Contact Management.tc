@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Contact Management</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9f6d9f6-e421-4391-be39-39a7a90f8e8e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>81e60551-62f9-4e1e-8668-e0bfdd0ff35b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Contact</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>81e60551-62f9-4e1e-8668-e0bfdd0ff35b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>accountName</value>
+      <variableId>a4d7a797-ccc0-42ba-bcaa-20043b27b3dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4d7a797-ccc0-42ba-bcaa-20043b27b3dd</id>
+      <masked>false</masked>
+      <name>mainACName</name>
+   </variable>
+</TestCaseEntity>

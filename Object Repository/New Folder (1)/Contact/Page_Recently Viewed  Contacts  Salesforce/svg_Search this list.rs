@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Search this list</name>
+   <tag></tag>
+   <elementGuidId>0c26dd31-f4e0-4fad-bac6-4ee18cda0959</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.slds-input__icon.slds-input__icon_left.slds-icon-text-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Search this list...'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>lightning-primitive-input-simple svg >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>eb24f0b7-366b-4dc5-9dcc-124966b8409a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>243a1f56-93d5-47d0-8e46-01f2f21d6ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f05832ee-6a79-4dc9-a767-455a1562c772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 520 520</value>
+      <webElementGuid>00892754-495e-441c-b1b2-458dc587b3c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>part</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>87c09e1a-ddc3-4e49-87d6-61e94bee18a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-key</name>
+      <type>Main</type>
+      <value>search</value>
+      <webElementGuid>93cab5df-a825-46f5-a1b6-1b7cae12120c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-input__icon slds-input__icon_left slds-icon-text-default</value>
+      <webElementGuid>32115aee-d3bf-44b1-a6cd-607f5ed14a0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_1&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;windowViewMode-maximized oneContent active lafPageHost&quot;]/div[@class=&quot;oneConsoleObjectHome runtime_sales_easyObjectHomeDesktop&quot;]/div[@class=&quot;test-listViewManager slds-card slds-card_boundary slds-grid slds-grid_vertical slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-page-header_object-home slds-page-header--object-home slds-page-header_joined slds-page-header_bleed slds-page-header slds-shrink-none test-headerRegion forceListViewManagerHeader&quot;]/div[@class=&quot;slds-grid slds-wrap&quot;]/div[@class=&quot;slds-col slds-no-flex slds-grid slds-align-bottom slds-shrink&quot;]/force-list-view-manager-search-bar[1]/div[@class=&quot;search-in-list slds-m-left_large slds-is-relative&quot;]/lightning-input[@class=&quot;slds-form-element&quot;]/lightning-primitive-input-simple[1]/div[1]/div[@class=&quot;slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right&quot;]/lightning-primitive-icon[1]/svg[@class=&quot;slds-input__icon slds-input__icon_left slds-icon-text-default&quot;]</value>
+      <webElementGuid>a91e51ef-4318-4aea-9c10-76de7c20ff2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search this list...'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>e5941894-ae5c-4fe0-ad9d-1dd68599042f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated a few seconds ago'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>480c6829-3c74-46f6-8a20-b476aadeacb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>107620f8-ccc3-46c8-a959-c29ebb6bb87d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

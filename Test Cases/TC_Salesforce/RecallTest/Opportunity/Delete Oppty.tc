@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Oppty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a63a18b8-0e88-40f8-94ac-69dd13184e92</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de9c3282-31ef-4608-a422-c7d590832657</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de9c3282-31ef-4608-a422-c7d590832657</id>
+      <masked>false</masked>
+      <name>opptyName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "2A9C2327818A889AB3729682356F7359",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.NavigateAccountList",
+      "keywordMethods": [
+        {
+          "name": "checkAccountList",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

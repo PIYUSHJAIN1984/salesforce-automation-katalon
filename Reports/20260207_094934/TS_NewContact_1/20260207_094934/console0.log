@@ -1,0 +1,186 @@
+2026-02-07 09:49:42.314 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-02-07 09:49:42.317 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\git\salesforce-katalon-sample\Include\config\log.properties
+2026-02-07 09:49:43.331 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_NewContact_1
+2026-02-07 09:49:43.480 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-02-07 09:49:43.482 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-02-07 09:49:43.484 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-02-07 09:49:43.486 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-07 09:49:43.487 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-02-07 09:49:43.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-02-07 09:49:43.913 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:49:43.913 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:49:44.338 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 09:49:44.345 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 09:49:44.390 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 9:49:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 09:49:46.473 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9dd2cc61bdfba621f542db6a83df35db
+2026-02-07 09:49:46.475 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 09:49:46.475 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 09:49:46.476 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 09:49:46.494 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 09:49:49.061 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 09:49:50.086 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 09:49:50.461 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 09:49:50.867 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 09:49:52.960 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 09:49:53.151 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 09:50:12.318 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/o/Contact/list?filterName=Recent
+2026-02-07 09:50:13.487 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 09:50:13.491 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 09:50:17.292 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:50:17.299 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:50:17.306 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 09:50:17.829 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:50:17.845 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:50:17.845 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1
+2026-02-07 09:50:17.917 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) accountName = 
+2026-02-07 09:50:17.936 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-07 09:50:18.319 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 09:50:18.320 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 09:50:18.320 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 9:50:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 09:50:19.635 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dfe8591f092d2f60e461c921450a5af1
+2026-02-07 09:50:19.637 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 09:50:19.637 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 09:50:19.638 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 09:50:19.640 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 09:50:22.049 DEBUG t.Create a Contact for existing AC_1     - 1: enhancedClick(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts"))
+2026-02-07 09:50:52.068 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts'. Try using Self-healing.
+2026-02-07 09:50:52.333 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Failed Locator: '//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' verticalNavMenuListItem ') and (position() = 3)]//*[(@draggable = 'false') and (@alt = '')]'.
+2026-02-07 09:50:52.599 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Failed Locator: '//img[@src = 'https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyAccounts/logo.png?v=254.4']'.
+2026-02-07 09:50:52.867 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Web element with id: 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts' located by 'By.cssSelector: .verticalNavMenuListItem:nth-child(3) [draggable="false"][alt=""]' not found
+2026-02-07 09:50:52.997 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Create a Contact for existing AC_1.run(Create a Contact for existing AC_1:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770437974351.run(TempTestSuite1770437974351.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts' located by 'By.xpath: //img[contains(@src,'EasyAccounts')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1770355329914.run(Script1770355329914.groovy:6)
+	... 15 more
+)
+2026-02-07 09:50:53.000 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Create a Contact for existing AC_1.run(Create a Contact for existing AC_1:6)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770437974351.run(TempTestSuite1770437974351.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts' located by 'By.xpath: //img[contains(@src,'EasyAccounts')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-02-07 09:50:53.005 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1
+2026-02-07 09:50:53.008 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:50:53.009 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1
+2026-02-07 09:50:53.018 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) accountName = 
+Skipping test case: Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1
+2026-02-07 09:50:53.031 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-02-07 09:50:53.031 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1
+2026-02-07 09:50:53.032 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-07 09:50:53.033 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_NewContact_1
+2026-02-07 09:50:53.033 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

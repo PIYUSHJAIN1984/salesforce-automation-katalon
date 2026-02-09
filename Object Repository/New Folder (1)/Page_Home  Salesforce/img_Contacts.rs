@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Contacts</name>
+   <tag></tag>
+   <elementGuidId>3400d164-c065-409d-9e55-8316a0dbfcbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.verticalNavMenuListItem:nth-child(3) [draggable=&quot;false&quot;][alt=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'EasyContacts')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Accounts&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e0fd6b82-9004-4f79-b309-4eeab0808484</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>draggable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0ffad142-9874-4f12-8651-410e29aa32cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyAccounts/logo.png?v=254.4</value>
+      <webElementGuid>9652b897-b178-4f1b-abcf-eb4e8bdc97f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3c5b7211e9d9f27af822d4d03157881a</value>
+      <webElementGuid>4f51ecba-8b61-418c-87c5-cdf0a6053c0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' verticalNavMenuListItem ') and (position() = 3)]//*[(@draggable = 'false') and (@alt = '')]</value>
+      <webElementGuid>c944926b-cf78-41c0-be24-ae92cce034cb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Dashboard belong to iframe</description>
+   <name>Create New Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>466fa5b6-2bba-41b5-9db2-bed4617b95fb</testCaseGuid>
+</TestCaseEntity>

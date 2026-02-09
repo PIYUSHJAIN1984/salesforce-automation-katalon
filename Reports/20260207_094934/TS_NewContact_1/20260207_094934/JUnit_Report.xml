@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_NewContact_1" time="69.617" tests="2" failures="0" errors="0">
+   <testsuite name="TS_NewContact_1" tests="2" failures="0" errors="0" time="69.617" skipped="1" timestamp="2026-02-07T04:19:43.415Z" hostname="PJain15 - SLB-G8JJX14.DIR.slb.com" id="Test Suites/TS_NewContact_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260207_094934\\TS_NewContact_1\\20260207_094934"/>
+         <property name="logFiles" value="C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260207_094934\\TS_NewContact_1\\20260207_094934\\console0.log, C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260207_094934\\TS_NewContact_1\\20260207_094934\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260207_094934\\TS_NewContact_1\\20260207_094934\\1770438052869.png"/>
+         <property name="hostName" value="PJain15 - SLB-G8JJX14.DIR.slb.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.133"/>
+         <property name="userFullName" value="piyush jain"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="dfe8591f092d2f60e461c921450a5af1"/>
+         <property name="projectName" value="salesforce-katalon-sample"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1" time="33.916" classname="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1" status="PASSED">
+         <system-out><![CDATA[07-02-2026T09:49:43 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1: Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+
+07-02-2026T09:49:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: Navigate to 'https://data-momentum-7717.my.salesforce.com/' successfully
+
+07-02-2026T09:49:43 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("TestCaseName")): null
+
+07-02-2026T09:49:43 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+07-02-2026T09:49:44 - [TEST_STEP][PASSED] - else: Navigate to 'https://data-momentum-7717.my.salesforce.com/' successfully
+
+07-02-2026T09:49:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2026T09:49:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-02-2026T09:49:44 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+07-02-2026T09:49:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2026T09:49:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2026T09:49:46 - [TEST_STEP][PASSED] - navigateToUrl(APP_URL): Navigate to 'https://data-momentum-7717.my.salesforce.com/' successfully
+
+07-02-2026T09:49:48 - [MESSAGE][PASSED] - Navigate to 'https://data-momentum-7717.my.salesforce.com/' successfully
+
+07-02-2026T09:49:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME): Text 'piyushmnit-tt7f@force.com' is set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username'
+
+07-02-2026T09:49:50 - [MESSAGE][PASSED] - Text 'piyushmnit-tt7f@force.com' is set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username'
+
+07-02-2026T09:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password")): Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password' is clicked on
+
+07-02-2026T09:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password' is clicked on
+
+07-02-2026T09:49:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD): Text ****** has been set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password'
+
+07-02-2026T09:49:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password'
+
+07-02-2026T09:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login")): Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login' is clicked on
+
+07-02-2026T09:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login' is clicked on
+
+07-02-2026T09:49:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-02-2026T09:49:53 - [MESSAGE][PASSED] - Current window maximized
+
+07-02-2026T09:49:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE): Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home' is clickable
+
+07-02-2026T09:50:12 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home' is clickable
+
+07-02-2026T09:50:12 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.checkHomePage(): webKeywords.ApplicationFunction.checkHomePage is PASSED
+
+07-02-2026T09:50:12 - [MESSAGE][PASSED] - Current window's url is: 'https://data-momentum-7717.lightning.force.com/lightning/o/Contact/list?filterName=Recent'
+
+07-02-2026T09:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home' is clicked on
+
+07-02-2026T09:50:13 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.checkHomePage is PASSED
+
+07-02-2026T09:50:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20): Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home' is visible
+
+07-02-2026T09:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home' is visible
+
+07-02-2026T09:50:17 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home"): NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+
+07-02-2026T09:50:17 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+
+07-02-2026T09:50:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH"): Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH' are matched.
+
+07-02-2026T09:50:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH' are matched.
+
+07-02-2026T09:50:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+07-02-2026T09:50:17 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1" time="0.023" classname="Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1" status="SKIPPED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) accou...":""}]]></property>
+         </properties>
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[07-02-2026T09:50:53 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1: 
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("TestCaseName")): null
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - println("Skipping test case: " + testCaseContext.getTestCaseId()): null
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+07-02-2026T09:50:53 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2026T09:49:43 - [TEST_SUITE][PASSED] - TS_NewContact_1: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

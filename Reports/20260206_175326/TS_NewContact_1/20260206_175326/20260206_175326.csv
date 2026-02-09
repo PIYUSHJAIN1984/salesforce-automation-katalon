@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_NewContact_1,Chrome 144.0.7559.133,,,06-02-2026 17:53:39,06-02-2026 17:54:37,58.574s,SKIPPED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1,Chrome 144.0.7559.133,,,06-02-2026 17:54:37,06-02-2026 17:54:37,0.031s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,06-02-2026 17:54:37,06-02-2026 17:54:37,0.014s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,06-02-2026 17:54:37,06-02-2026 17:54:37,0.003s,PASSED

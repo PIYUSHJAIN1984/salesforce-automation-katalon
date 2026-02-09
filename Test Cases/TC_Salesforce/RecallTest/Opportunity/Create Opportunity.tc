@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Opportunity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fab0b67e-94bf-4045-8b62-f1610e4d2907</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0e36d2d-1eb1-404d-b684-101f4127278e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5fddebd-2088-46a0-80bb-8edf0c040ad3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0e36d2d-1eb1-404d-b684-101f4127278e</id>
+      <masked>false</masked>
+      <name>contactName</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Business'</defaultValue>
+      <description></description>
+      <id>a5fddebd-2088-46a0-80bb-8edf0c040ad3</id>
+      <masked>false</masked>
+      <name>opportunityName</name>
+   </variable>
+</TestCaseEntity>

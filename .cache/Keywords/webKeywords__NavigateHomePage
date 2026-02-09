@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F6EDC7760A849FE41955EEB3049A1552",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.NavigateHomePage",
+      "keywordMethods": [
+        {
+          "name": "checkHomePage",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

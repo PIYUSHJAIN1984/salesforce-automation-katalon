@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Salesforce New" time="69.979" tests="6" failures="1" errors="0">
+   <testsuite name="TS_Salesforce New" tests="6" failures="1" errors="0" time="69.979" skipped="4" timestamp="2023-03-16 17:24:18" hostname="mohit - 192.168.1.102" id="Test Suites/TS_Salesforce New">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20230316_172239/TS_Salesforce New/20230316_172301"/>
+         <property name="logFiles" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20230316_172239/TS_Salesforce New/20230316_172301/execution0.log"/>
+         <property name="attachments" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20230316_172239/TS_Salesforce New/20230316_172301/1678967727638.png"/>
+         <property name="hostName" value="mohit - 192.168.1.102"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="sessionId" value="36cd2457ab9736775703bae6ae5fa4dc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce" time="32.055" classname="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce" status="PASSED">
+         <system-out><![CDATA[2023-03-16 17:24:19 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce: Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce
+
+2023-03-16 17:24:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-16 17:24:19 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-16 17:24:19 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:24:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:24:19 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:24:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-16 17:24:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-16 17:24:20 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2023-03-16 17:24:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-16 17:24:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-16 17:24:28 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(2650, 1400): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+2023-03-16 17:24:28 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+2023-03-16 17:24:28 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+2023-03-16 17:24:29 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+2023-03-16 17:24:29 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1325 and height = 824
+
+2023-03-16 17:24:29 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+2023-03-16 17:24:29 - [TEST_STEP][PASSED] - navigateToUrl(APP_URL): Navigate to 'https://katalon-inc--demo.sandbox.my.salesforce.com/' successfully
+
+2023-03-16 17:24:32 - [MESSAGE][PASSED] - Navigate to 'https://katalon-inc--demo.sandbox.my.salesforce.com/' successfully
+
+2023-03-16 17:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username"), USERNAME): Text '' is set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username'
+
+2023-03-16 17:24:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username'
+
+2023-03-16 17:24:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw"), PASSWORD): Text ****** has been set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw'
+
+2023-03-16 17:24:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw'
+
+2023-03-16 17:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-03-16 17:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-03-16 17:24:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager"), 10): Object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager' is not present after 10 second(s)
+
+2023-03-16 17:24:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='App Launcher'])[1]/following::span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-16 17:24:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager'. Try using Self-healing.
+
+2023-03-16 17:24:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='App Launcher'])[1]/following::span[2]'.
+
+2023-03-16 17:24:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='View profile'])[1]/following::span[6]'.
+
+2023-03-16 17:24:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Press Spacebar to reorder.'])[1]/preceding::span[1]'.
+
+2023-03-16 17:24:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::span[3]'.
+
+2023-03-16 17:24:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[@title = 'Sales Manager' and (text() = 'Sales Manager' or . = 'Sales Manager')]'.
+
+2023-03-16 17:24:49 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div/div/div/span/span'.
+
+2023-03-16 17:24:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@title = 'Sales Manager' and (text() = 'Sales Manager' or . = 'Sales Manager')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-16 17:24:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.slds-truncate'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-16 17:24:51 - [MESSAGE][WARNING] - Object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager' is not present after 10 second(s)
+
+2023-03-16 17:24:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-16 17:24:51 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-16 17:24:51 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:24:51 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead" time="36.934" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-03-16 17:24:51 - [TEST_CASE][FAILED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-03-16 17:24:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-16 17:24:51 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-16 17:24:51 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:24:51 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:24:51 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:24:51 - [TEST_STEP][FAILED] - enhancedClick(findTestObject("Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads")): Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Script1664968707227.run(Script1664968707227.groovy:20)
+	... 13 more
+)
+
+2023-03-16 17:25:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-16 17:25:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'. Try using Self-healing.
+
+2023-03-16 17:25:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]'.
+
+2023-03-16 17:25:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]'.
+
+2023-03-16 17:25:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Leads Menu'])[1]/preceding::span[1]'.
+
+2023-03-16 17:25:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Accounts'])[1]/preceding::span[2]'.
+
+2023-03-16 17:25:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Leads']/parent::*'.
+
+2023-03-16 17:25:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[(text() = 'Leads' or . = 'Leads')]'.
+
+2023-03-16 17:25:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//one-app-nav-bar-item-root[3]/a/span'.
+
+2023-03-16 17:25:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Leads' or . = 'Leads')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-16 17:25:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-16 17:25:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Script1664968707227.run(Script1664968707227.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mohit/git/salesforce-katalon-sample/Reports/20230316_172239/TS_Salesforce New/20230316_172301/1678967727638.png]]
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - SKIP_REMAINING_TESTS = true: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[2023-03-16 17:24:51 - [TEST_CASE][FAILED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead" time="0.052" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead" status="SKIPPED">
+         <system-out><![CDATA[2023-03-16 17:25:28 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead: 
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner" time="0.03" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner" status="SKIPPED">
+         <system-out><![CDATA[2023-03-16 17:25:28 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner: 
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead" time="0.022" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead" status="SKIPPED">
+         <system-out><![CDATA[2023-03-16 17:25:28 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead: 
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application" time="0.017" classname="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application" status="SKIPPED">
+         <system-out><![CDATA[2023-03-16 17:25:28 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application: 
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-16 17:25:28 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-16 17:25:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-16 17:24:18 - [TEST_SUITE][FAILED] - TS_Salesforce New: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-03-16 17:24:18 - [TEST_SUITE][FAILED] - TS_Salesforce New: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$7.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678967581600.run(TempTestSuite1678967581600.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' located by '(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

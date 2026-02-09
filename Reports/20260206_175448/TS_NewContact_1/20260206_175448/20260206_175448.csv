@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_NewContact_1,Chrome 144.0.7559.133,,,06-02-2026 17:54:57,06-02-2026 17:55:34,36.857s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1,Chrome 144.0.7559.133,,,06-02-2026 17:54:57,06-02-2026 17:55:34,36.234s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,06-02-2026 17:54:57,06-02-2026 17:55:03,5.208s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,06-02-2026 17:55:03,06-02-2026 17:55:28,25.518s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1""), [""accountName"":""""], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,06-02-2026 17:55:28,06-02-2026 17:55:32,3.367s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Close application""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,06-02-2026 17:55:32,06-02-2026 17:55:34,1.976s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,06-02-2026 17:55:34,06-02-2026 17:55:34,0.006s,PASSED

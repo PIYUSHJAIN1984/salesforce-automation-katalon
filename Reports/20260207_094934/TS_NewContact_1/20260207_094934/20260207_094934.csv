@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_NewContact_1,Chrome 144.0.7559.133,,,07-02-2026 09:49:43,07-02-2026 09:50:53,1m - 9.618s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1,Chrome 144.0.7559.133,,,07-02-2026 09:49:43,07-02-2026 09:50:17,33.916s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,07-02-2026 09:49:43,07-02-2026 09:49:48,4.947s,PASSED
+"setText(findTestObject(""Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username""), USERNAME)",Chrome 144.0.7559.133,,,07-02-2026 09:49:49,07-02-2026 09:49:50,1.025s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password""))",Chrome 144.0.7559.133,,,07-02-2026 09:49:50,07-02-2026 09:49:50,0.374s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password""), PASSWORD)",Chrome 144.0.7559.133,,,07-02-2026 09:49:50,07-02-2026 09:49:50,0.406s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login""))",Chrome 144.0.7559.133,,,07-02-2026 09:49:50,07-02-2026 09:49:52,2.093s,PASSED
+maximizeWindow(),Chrome 144.0.7559.133,,,07-02-2026 09:49:52,07-02-2026 09:49:53,0.188s,PASSED
+"waitForElementClickable(findTestObject(""New Folder (1)/Page_Home  Salesforce/link_Home""), 30, STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 09:49:53,07-02-2026 09:50:12,19.163s,PASSED
+webKeywords.ApplicationFunction.checkHomePage(),Chrome 144.0.7559.133,,,07-02-2026 09:50:12,07-02-2026 09:50:13,1.171s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home""), 20)",Chrome 144.0.7559.133,,,07-02-2026 09:50:13,07-02-2026 09:50:17,3.801s,PASSED
+"verifyElementText(findTestObject(""Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home""), ""Home"")",Chrome 144.0.7559.133,,,07-02-2026 09:50:17,07-02-2026 09:50:17,0.014s,NOT_RUN
+"verifyElementText(findTestObject(""Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH""), ""Welcome, PIYUSH"")",Chrome 144.0.7559.133,,,07-02-2026 09:50:17,07-02-2026 09:50:17,0.497s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,07-02-2026 09:50:17,07-02-2026 09:50:17,0.011s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1,Chrome 144.0.7559.133,,,07-02-2026 09:50:53,07-02-2026 09:50:53,0.023s,SKIPPED
+"DATA BINDING - {""(Default) accou..."":""""}",,,,,,,
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,07-02-2026 09:50:53,07-02-2026 09:50:53,0.010s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,07-02-2026 09:50:53,07-02-2026 09:50:53,0.001s,PASSED

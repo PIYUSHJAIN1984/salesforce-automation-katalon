@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027App Launcher\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027App Launcher\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was created",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027success\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[4]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was created_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Case/Page_Edit 00001063  Salesforce/a_--None-- Type",
+      "brokenLocator": "//span/span[text()\u003d\u0027Type\u0027]/following::div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[2]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved",
+      "brokenLocator": "//*[(matches(text(), \u0027Case \"([0-9]+)\" was saved.\u0027) or matches(., \u0027Case \"([0-9]+)\" was saved.\u0027))]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[4]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved",
+      "brokenLocator": ".//*[@data-key\u003d\u0027success\u0027]//*[text()\u003d\u0027\\\" was saved.\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[4]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027App Launcher\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027View profile\u0027])[1]/following::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/lightning-formatted-text_SC In Review",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Highest\u0027])[1]/following::lightning-formatted-text[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027New Note\u0027])[1]/following::lightning-formatted-text[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/lightning-formatted-text_SC In Review_neighbor.png"
+    }
+  ]
+}

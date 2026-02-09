@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Home</name>
+   <tag></tag>
+   <elementGuidId>e6d14e5c-5a9b-4345-9935-468e685440ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyHome/logo.png?v=254.4']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'EasyHome')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-current=&quot;true&quot;] [draggable=&quot;false&quot;][alt=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Main&quot;i >> internal:role=link[name=&quot;Home&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3bc6cf03-a8c8-4565-bd66-5fe23de429c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>draggable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3686ed6f-4942-427b-a5a2-7eccb450fa3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyHome/logo.png?v=254.4</value>
+      <webElementGuid>b07bb430-c63c-46a4-8b27-f8cdbce1b04c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bada57d35af29abc8042821b89e6b09b</value>
+      <webElementGuid>21e6710a-bcbe-4861-ad26-ac926e509833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-current = 'true']//*[(@draggable = 'false') and (@alt = '')]</value>
+      <webElementGuid>82e8bc39-4851-4afd-8f81-a366e1feda26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-current = 'true']//*[(@draggable = 'false') and (@alt = '')]</value>
+      <webElementGuid>257b476e-5c7c-4dde-8aa1-272a0778f858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyHome/logo.png?v=254.4']</value>
+      <webElementGuid>1327921e-9ad5-49b0-9b17-54d011efbd9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search a Lead by name and Delete a Lead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>78d55b91-b3b7-49aa-b634-d7ad45b66c09</testCaseGuid>
+</TestCaseEntity>

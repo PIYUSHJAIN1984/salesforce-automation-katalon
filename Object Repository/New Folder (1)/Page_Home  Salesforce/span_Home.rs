@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Home</name>
+   <tag></tag>
+   <elementGuidId>f4dd5283-af26-4361-8f96-f8fb1fdbf668</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'slds-truncate' and @title = 'Home' and (text() = 'Home' or . = 'Home')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class = 'slds-truncate' and @title = 'Home']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.slds-truncate[title=&quot;Home&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>one-appnav >> internal:role=heading[name=&quot;Home&quot;i] >> internal:attr=[title=&quot;Home&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>65305305-8e68-43f4-b7d6-6e6e3894bebf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+      <webElementGuid>60101b40-211e-4d3b-8abc-02532bb6a6d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target-selection-name</name>
+      <type>Main</type>
+      <value>18091d42e3de45d9832ee76c43bc1481</value>
+      <webElementGuid>e96d5fd2-cda3-46a1-9824-dd68dcb1b2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>252a0b4a-e545-4c63-9664-20b056590dec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>d9119859-7134-43ff-840a-f136128db439</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a02fbbf4f893926fa457585ea836fd50</value>
+      <webElementGuid>c0ecd90c-5512-4fe5-a1ed-791b4622583c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-truncate ') and (@title = 'Home')]</value>
+      <webElementGuid>55c89df4-3cde-4ec8-82c2-b1d740c228d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-truncate ') and (@title = 'Home')]</value>
+      <webElementGuid>d3ee1925-961d-46f4-9822-b073c88daaee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Home' and (text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>1d04e5e3-c71b-44a5-a782-36630eb5a806</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

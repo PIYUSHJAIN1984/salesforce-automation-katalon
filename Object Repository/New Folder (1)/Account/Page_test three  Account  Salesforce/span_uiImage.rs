@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_uiImage</name>
+   <tag></tag>
+   <elementGuidId>8fd719cb-3f6f-4379-8a51-8b216dbba193</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.profileTrigger .uiImage</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profileTrigger ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' uiImage ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;View profile&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eac61792-ebcb-4081-8258-3173d163980e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>6:481;a</value>
+      <webElementGuid>b09de94e-5ef8-4eab-a6e9-38687c95e15b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>uiImage</value>
+      <webElementGuid>440c4889-4872-4900-9855-53e0a47b72f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-class</name>
+      <type>Main</type>
+      <value>uiImage</value>
+      <webElementGuid>e6420ec5-4d10-470a-9483-f87ecfc1b8e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5c9f97f59b69c15a94d20fd1dcb40ef6</value>
+      <webElementGuid>f8fb8c6a-4f1c-4cd4-95f7-e82466f20db1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profileTrigger ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' uiImage ')]</value>
+      <webElementGuid>663e4400-52bc-46c9-b3d2-a403687cfc74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' profileTrigger ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' uiImage ')]</value>
+      <webElementGuid>6c0e89e7-b43c-49f6-9829-46806ed70043</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

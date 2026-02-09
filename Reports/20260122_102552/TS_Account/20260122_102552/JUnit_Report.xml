@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Account" time="57.862" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Account" tests="1" failures="0" errors="0" time="57.862" skipped="0" timestamp="2026-01-22T04:56:02.915Z" hostname="PJain15 - SLB-G8JJX14.DIR.slb.com" id="Test Suites/TS_Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260122_102552\\TS_Account\\20260122_102552"/>
+         <property name="logFiles" value="C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260122_102552\\TS_Account\\20260122_102552\\console0.log, C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260122_102552\\TS_Account\\20260122_102552\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PJain15 - SLB-G8JJX14.DIR.slb.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.60"/>
+         <property name="userFullName" value="piyush jain"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="7880b116d98d742516672c69ec4630af"/>
+         <property name="projectName" value="salesforce-katalon-sample"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1" time="57.207" classname="Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1" status="PASSED">
+         <system-out><![CDATA[22-01-2026T10:26:03 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1: Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1
+
+22-01-2026T10:26:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+22-01-2026T10:26:03 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+22-01-2026T10:26:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1' successfully
+
+22-01-2026T10:26:04 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1: Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+
+22-01-2026T10:26:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2026T10:26:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-01-2026T10:26:04 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+22-01-2026T10:26:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2026T10:26:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2026T10:26:07 - [TEST_STEP][PASSED] - navigateToUrl("https://data-momentum-7717.my.salesforce.com/"): Navigate to 'https://data-momentum-7717.my.salesforce.com/' successfully
+
+22-01-2026T10:26:09 - [MESSAGE][PASSED] - Navigate to 'https://data-momentum-7717.my.salesforce.com/' successfully
+
+22-01-2026T10:26:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), "piyushmnit-tt7f@force.com"): Text 'piyushmnit-tt7f@force.com' is set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username'
+
+22-01-2026T10:26:11 - [MESSAGE][PASSED] - Text 'piyushmnit-tt7f@force.com' is set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username'
+
+22-01-2026T10:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password")): Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password' is clicked on
+
+22-01-2026T10:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password' is clicked on
+
+22-01-2026T10:26:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), "gS/5CWqqSBMvOLDqFuE/lQ=="): Text ****** has been set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password'
+
+22-01-2026T10:26:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password'
+
+22-01-2026T10:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login")): Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login' is clicked on
+
+22-01-2026T10:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login' is clicked on
+
+22-01-2026T10:26:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img"), 30): Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img' is visible
+
+22-01-2026T10:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img' is visible
+
+22-01-2026T10:26:37 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img")): Object: 'Object Repository/New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img' is clicked on
+
+22-01-2026T10:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Home  Salesforce/Page_Home  Salesforce/img_img' is clicked on
+
+22-01-2026T10:26:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 10): Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home' is visible
+
+22-01-2026T10:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home' is visible
+
+22-01-2026T10:26:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home"): Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home' are matched.
+
+22-01-2026T10:26:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home' are matched.
+
+22-01-2026T10:26:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH"): Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH' are matched.
+
+22-01-2026T10:26:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH' are matched.
+
+22-01-2026T10:26:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1' successfully
+
+22-01-2026T10:26:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Salesforce New/RecallTest/Account/Create an Account_1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1' successfully
+
+22-01-2026T10:26:44 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1: Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1
+
+22-01-2026T10:26:44 - [TEST_STEP][PASSED] - SKIP_REMAINING_TESTS = true: null
+
+22-01-2026T10:26:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/img_img")): Object: 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_img' is clicked on
+
+22-01-2026T10:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Home  Salesforce/img_img' is clicked on
+
+22-01-2026T10:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_Recently Viewed  Accounts  Salesforce/div_New")): Object: 'Object Repository/New Folder (1)/Page_Recently Viewed  Accounts  Salesforce/div_New' is clicked on
+
+22-01-2026T10:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_Recently Viewed  Accounts  Salesforce/div_New' is clicked on
+
+22-01-2026T10:26:46 - [TEST_STEP][PASSED] - dynamicName = "User_" + System.currentTimeMillis(): null
+
+22-01-2026T10:26:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/input__Account Name"), dynamicName): Text 'User_1769057806527' is set on object 'Object Repository/New Folder (1)/Page_New Account  Salesforce/input__Account Name'
+
+22-01-2026T10:26:49 - [MESSAGE][PASSED] - Text 'User_1769057806527' is set on object 'Object Repository/New Folder (1)/Page_New Account  Salesforce/input__Account Name'
+
+22-01-2026T10:26:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Website"), "www.testtwo.com"): Text 'www.testtwo.com' is set on object 'Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Website'
+
+22-01-2026T10:26:50 - [MESSAGE][PASSED] - Text 'www.testtwo.com' is set on object 'Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Website'
+
+22-01-2026T10:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/button_Type")): Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/button_Type' is clicked on
+
+22-01-2026T10:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/button_Type' is clicked on
+
+22-01-2026T10:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/span_Analyst")): Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/span_Analyst' is clicked on
+
+22-01-2026T10:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/span_Analyst' is clicked on
+
+22-01-2026T10:26:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/textarea_Description"), dynamicName): Text 'User_1769057806527' is set on object 'Object Repository/New Folder (1)/Page_New Account  Salesforce/textarea_Description'
+
+22-01-2026T10:26:52 - [MESSAGE][PASSED] - Text 'User_1769057806527' is set on object 'Object Repository/New Folder (1)/Page_New Account  Salesforce/textarea_Description'
+
+22-01-2026T10:26:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Search Accounts")): Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Search Accounts' is clicked on
+
+22-01-2026T10:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/input_Search Accounts' is clicked on
+
+22-01-2026T10:26:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/span_testone")): Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/span_testone' is clicked on
+
+22-01-2026T10:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/span_testone' is clicked on
+
+22-01-2026T10:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_New Account  Salesforce/button_SaveEdit")): Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/button_SaveEdit' is clicked on
+
+22-01-2026T10:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_New Account  Salesforce/button_SaveEdit' is clicked on
+
+22-01-2026T10:26:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_Account _test three_ was created"), "Account "" + dynamicName + "" was created."): Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_Account _test three_ was created' are matched.
+
+22-01-2026T10:26:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_Account _test three_ was created' are matched.
+
+22-01-2026T10:26:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/lightning-formatted-text_test three"), dynamicName): Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/lightning-formatted-text_test three' are matched.
+
+22-01-2026T10:26:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/lightning-formatted-text_test three' are matched.
+
+22-01-2026T10:26:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1' successfully
+
+22-01-2026T10:26:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application' successfully
+
+22-01-2026T10:26:58 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application: Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+
+22-01-2026T10:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_uiImage")): Object: 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_uiImage' is clicked on
+
+22-01-2026T10:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/span_uiImage' is clicked on
+
+22-01-2026T10:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Page_test three  Account  Salesforce/a_Log Out")): Object: 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/a_Log Out' is clicked on
+
+22-01-2026T10:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Page_test three  Account  Salesforce/a_Log Out' is clicked on
+
+22-01-2026T10:27:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application' successfully
+
+22-01-2026T10:27:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+22-01-2026T10:27:00 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2026T10:26:02 - [TEST_SUITE][PASSED] - TS_Account: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

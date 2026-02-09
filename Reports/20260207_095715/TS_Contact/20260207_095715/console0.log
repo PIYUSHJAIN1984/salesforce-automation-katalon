@@ -1,0 +1,272 @@
+2026-02-07 09:57:22.582 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-02-07 09:57:22.585 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\git\salesforce-katalon-sample\Include\config\log.properties
+2026-02-07 09:57:23.563 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Contact
+2026-02-07 09:57:23.712 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-02-07 09:57:23.714 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-02-07 09:57:23.715 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-02-07 09:57:23.716 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-07 09:57:23.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-02-07 09:57:23.720 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-02-07 09:57:24.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:57:24.169 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:57:24.593 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 09:57:24.600 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 09:57:24.645 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 9:57:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 09:57:26.734 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9eea736d5add1194f7a34c564b3246fc
+2026-02-07 09:57:26.736 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 09:57:26.737 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 09:57:26.739 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 09:57:26.754 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 09:57:29.635 DEBUG testcase.Create Contact_1                - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 09:57:29.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:57:29.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:57:29.935 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 09:57:30.916 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 09:57:31.473 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 09:57:31.899 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 09:57:34.176 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 09:57:34.284 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 09:58:05.124 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Web element with id: 'Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home' located by 'By.xpath: //img[contains(@src,'EasyHome')]' not found
+2026-02-07 09:58:05.140 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.my.salesforce.com/_ui/identity/verification/method/TotpVerificationUi/e?vcsrf=YTRSZHTI4bW0gSB3cxfD_O77PSEPViXEVIdKZb-_w1tETndGUEmSkJYAEQ6Q-f2A_1cpEeIYZ8cHKUNTuqP0A7iXvoDEcQ84B0j9m3L_1uoBpvpokwQww6p6FSdbaKu6hTu_kFGC6b0oAq_STwLXXPnzgLfn8MtU58aK6XP5l8Z0AoOx0MEigENF78sDkRVWwPtv_WfyW9PNVBFl2PECIywRmqzQYA-N3INI68LW9reG_5DOdgpMJhjjnMKWqczE1u-P_BvtUKJdgNfsD_mceGCmA5WQ31TlFX3GT4s9rA34pWewioS5kEBEZfW6pXdXKTYzgswjDoFl4jfpeV8RvruaQplqnGl9XsDjOlmfoxn5Y_moibTfO_ItwLR-p1AAUx8y84FVslKyExwo7fRFxc3OX0NFxP7cAm-pnA6doz0btLtSiKrmk5yh5afbdrn6JkwgmhHPUnvZqdaj7InF0jOglBE8RgpALEYEg6J6-ZF0E63HDTOOhxN7tRX6I_RmGSUeMar1y4BM-J68Ka9mBp4J-BTsTeclaQO9tlyushH3_AQS0qNfsmMo_slD-5Y9yFHJ9lPbt08cunZy6YKW-Y4tM4JdSesJNwz9aqQsVuuZgmApr9JBlOvpwVY9ySnMigIFd0XVNCa13arCvHwIjuAT5vEnWBI6KjD_pQ1xM6U%3D&vpol=ic&vflid=0&vfgrp=265898478&retURL=%2Fsecur%2Ffrontdoor.jsp%3Fallp%3D1%26cshc%3DN000009apEvN00000sn2rB%26apv%3D1%26display%3Dpage%26ucs%3D1&sfafb=2
+2026-02-07 09:58:22.566 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 09:58:22.570 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 09:58:23.324 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:58:23.340 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:58:23.341 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 09:58:23.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:58:23.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:58:23.708 DEBUG testcase.Create Contact_1                - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1"), ["accountName":mainACName], STOP_ON_FAILURE)
+2026-02-07 09:58:23.741 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: mainACName for class: Script1770438156368
+	at Create Contact_1.run(Create Contact_1:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770438435045.run(TempTestSuite1770438435045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-02-07 09:58:23.741 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: mainACName for class: Script1770438156368
+	at Create Contact_1.run(Create Contact_1:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770438435045.run(TempTestSuite1770438435045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-02-07 09:58:23.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:58:23.791 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:58:23.791 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:58:23.851 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-07 09:58:24.243 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 09:58:24.244 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 09:58:24.245 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 9:58:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 09:58:25.653 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cfeb6f1d2b837681970f7f90665fecd3
+2026-02-07 09:58:25.654 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 09:58:25.654 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 09:58:25.655 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 09:58:25.656 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 09:58:27.983 DEBUG testcase.Create Contact_1                - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 09:58:28.062 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:58:28.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:58:28.103 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 09:58:28.953 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 09:58:29.373 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 09:58:29.753 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 09:58:31.731 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 09:58:31.776 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 09:58:46.449 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+Already on the target URL. No click needed.
+2026-02-07 09:58:46.472 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 09:58:46.474 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 09:58:46.881 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:58:46.889 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:58:46.892 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 09:58:47.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:58:47.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:58:47.655 DEBUG testcase.Create Contact_1                - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1"), ["accountName":mainACName], STOP_ON_FAILURE)
+2026-02-07 09:58:47.663 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: mainACName for class: Script1770438156368
+	at Create Contact_1.run(Create Contact_1:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770438435045.run(TempTestSuite1770438435045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-02-07 09:58:47.666 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: mainACName for class: Script1770438156368
+	at Create Contact_1.run(Create Contact_1:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770438435045.run(TempTestSuite1770438435045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-02-07 09:58:47.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:58:47.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:58:47.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:58:47.753 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-07 09:58:48.187 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 09:58:48.187 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 09:58:48.188 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 9:58:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 09:58:49.573 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b36b810ad22dc12c7bbe08972a987a8c
+2026-02-07 09:58:49.574 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 09:58:49.575 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 09:58:49.576 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 09:58:49.576 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 09:58:51.661 DEBUG testcase.Create Contact_1                - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 09:58:51.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:58:51.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:58:51.753 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 09:58:52.584 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 09:58:52.976 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 09:58:53.330 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 09:58:55.378 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 09:58:55.442 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 09:59:10.169 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+Already on the target URL. No click needed.
+2026-02-07 09:59:10.190 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 09:59:10.192 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 09:59:10.504 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:59:10.506 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 09:59:10.507 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 09:59:11.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:59:11.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:59:11.365 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: mainACName for class: Script1770438156368
+	at Create Contact_1.run(Create Contact_1:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770438435045.run(TempTestSuite1770438435045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-02-07 09:59:11.381 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: mainACName for class: Script1770438156368
+	at Create Contact_1.run(Create Contact_1:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770438435045.run(TempTestSuite1770438435045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-02-07 09:59:11.349 DEBUG testcase.Create Contact_1                - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1"), ["accountName":mainACName], STOP_ON_FAILURE)
+2026-02-07 09:59:11.402 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:59:11.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:59:11.417 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1
+2026-02-07 09:59:11.461 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-07 09:59:11.863 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 09:59:11.864 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 09:59:11.865 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 9:59:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 09:59:13.118 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 17b55ecfa215eeaf0ac0faf5ec5f9c47
+2026-02-07 09:59:13.119 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 09:59:13.119 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 09:59:13.120 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 09:59:13.120 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 09:59:15.368 DEBUG testcase.Create Contact_1                - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 09:59:15.433 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 09:59:15.433 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 09:59:15.453 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+Feb 07, 2026 9:59:16 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+

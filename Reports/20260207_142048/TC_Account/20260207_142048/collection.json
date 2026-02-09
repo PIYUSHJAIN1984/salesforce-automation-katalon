@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/TC_Account",
+  "name": "TC_Account",
+  "reportFolder": "C:\\Users\\PJain15\\git\\salesforce-katalon-sample\\Reports\\20260207_142048\\TC_Account\\20260207_142048",
+  "startTime": 1770454264187,
+  "endTime": 1770454422182,
+  "totalPassedTestCases": "3",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "3",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

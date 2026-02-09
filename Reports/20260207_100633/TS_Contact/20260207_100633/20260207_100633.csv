@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Contact,Chrome 144.0.7559.133,,,07-02-2026 10:06:44,07-02-2026 10:09:23,2m - 38.898s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/New Folder/Create Contact_1,Chrome 144.0.7559.133,,,07-02-2026 10:06:45,07-02-2026 10:07:48,1m - 2.332s,PASSED
+"DATA BINDING - {""mainACName"":""User_1770355022101""}",,,,,,,
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,07-02-2026 10:06:45,07-02-2026 10:06:52,6.435s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:06:52,07-02-2026 10:07:21,28.762s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/Contact1/Create a Contact for existing AC_1""), [""accountName"":mainACName], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:07:21,07-02-2026 10:07:47,26.922s,PASSED
+"println(""DEBUG: Value from internal data  is -> "" + mainACName)",Chrome 144.0.7559.133,,,07-02-2026 10:07:47,07-02-2026 10:07:47,0.004s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,07-02-2026 10:07:47,07-02-2026 10:07:48,0.010s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/New Folder/Edit Contact Title_1,Chrome 144.0.7559.133,,,07-02-2026 10:07:48,07-02-2026 10:08:31,43.402s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,07-02-2026 10:07:48,07-02-2026 10:07:52,4.682s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:07:52,07-02-2026 10:08:20,27.896s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/Contact1/Edit a new Contact and change title_1""), [""newTitle"":""Admin""], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:08:20,07-02-2026 10:08:31,10.665s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,07-02-2026 10:08:31,07-02-2026 10:08:31,0.005s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/New Folder/Search and Delete a Contact_1,Chrome 144.0.7559.133,,,07-02-2026 10:08:31,07-02-2026 10:09:23,52.425s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,07-02-2026 10:08:31,07-02-2026 10:08:35,3.934s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:08:35,07-02-2026 10:09:08,33.015s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/Contact1/Search a Contact by name and Delete a Contact_2""), [""contactName"":""""], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:09:08,07-02-2026 10:09:21,13.027s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Close application""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,07-02-2026 10:09:21,07-02-2026 10:09:23,2.301s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,07-02-2026 10:09:23,07-02-2026 10:09:23,0.002s,PASSED

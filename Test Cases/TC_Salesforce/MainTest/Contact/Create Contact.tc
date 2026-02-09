@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Contact</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e12e233e-3fe0-4619-a96e-9111796de992</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8449d6eb-a365-4818-b488-54723dac391b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8449d6eb-a365-4818-b488-54723dac391b</id>
+      <masked>false</masked>
+      <name>mainACName</name>
+   </variable>
+</TestCaseEntity>

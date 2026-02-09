@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,,,,22-01-2026 10:31:25,22-01-2026 10:32:03,38.646s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1,,,,22-01-2026 10:31:25,22-01-2026 10:32:03,38.037s,PASSED
+Start listener action : sampleBeforeTestCase3,,,,22-01-2026 10:31:25,22-01-2026 10:31:26,0.183s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1""), [:], STOP_ON_FAILURE)",,,,22-01-2026 10:31:26,22-01-2026 10:31:44,18.153s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/Account/Create an Account_1""), [:], STOP_ON_FAILURE)",,,,22-01-2026 10:31:44,22-01-2026 10:32:01,17.509s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce New/RecallTest/SetupTeardown/Close application""), [:], STOP_ON_FAILURE)",,,,22-01-2026 10:32:01,22-01-2026 10:32:03,1.959s,PASSED
+Start listener action : sampleAfterTestCase2,,,,22-01-2026 10:32:03,22-01-2026 10:32:03,0.012s,PASSED

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Salesforce New" time="42.435" tests="6" failures="1" errors="0">
+   <testsuite name="TS_Salesforce New" tests="6" failures="1" errors="0" time="42.435" skipped="4" timestamp="2023-03-15 22:21:37" hostname="mohit - 192.168.1.101" id="Test Suites/TS_Salesforce New">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20230315_222125/TS_Salesforce New/20230315_222125"/>
+         <property name="logFiles" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20230315_222125/TS_Salesforce New/20230315_222125/execution0.log"/>
+         <property name="attachments" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20230315_222125/TS_Salesforce New/20230315_222125/1678899139130.png, /Users/mohit/git/salesforce-katalon-sample/Reports/20230315_222125/TS_Salesforce New/20230315_222125/1678899139420.png"/>
+         <property name="hostName" value="mohit - 192.168.1.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="ea58e8389b8350701f0a72f818de9ca3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce" time="26.754" classname="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce" status="PASSED">
+         <system-out><![CDATA[2023-03-15 22:21:37 - [TEST_CASE][PASSED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce: Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce
+
+2023-03-15 22:21:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-15 22:21:37 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-15 22:21:37 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:21:37 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:21:37 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:21:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-15 22:21:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-15 22:21:38 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2023-03-15 22:21:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-15 22:21:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-15 22:21:41 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(2650, 1400): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+2023-03-15 22:21:41 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+2023-03-15 22:21:41 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+2023-03-15 22:21:41 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+2023-03-15 22:21:41 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1325 and height = 824
+
+2023-03-15 22:21:41 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+2023-03-15 22:21:41 - [TEST_STEP][PASSED] - navigateToUrl(APP_URL): Navigate to 'https://katalon-inc--demo.sandbox.my.salesforce.com/' successfully
+
+2023-03-15 22:21:45 - [MESSAGE][PASSED] - Navigate to 'https://katalon-inc--demo.sandbox.my.salesforce.com/' successfully
+
+2023-03-15 22:21:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username"), USERNAME): Text 'mohit.kumar@katalon.com' is set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username'
+
+2023-03-15 22:21:46 - [MESSAGE][PASSED] - Text 'mohit.kumar@katalon.com' is set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username'
+
+2023-03-15 22:21:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw"), PASSWORD): Text ****** has been set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw'
+
+2023-03-15 22:21:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw'
+
+2023-03-15 22:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-03-15 22:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-03-15 22:21:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager"), 10): Object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager' is present
+
+2023-03-15 22:22:04 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager' is present
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:04 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead" time="15.394" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-03-15 22:22:04 - [TEST_CASE][FAILED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:04 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:04 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:04 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads")): Object: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' is clicked on
+
+2023-03-15 22:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads' is clicked on
+
+2023-03-15 22:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New")): Object: 'Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New' is clicked on
+
+2023-03-15 22:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New' is clicked on
+
+2023-03-15 22:22:07 - [TEST_STEP][PASSED] - click(findTestObject("OR_Salesforce New/Page_New Lead  Salesforce/button_--None--")): Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_--None--' is clicked on
+
+2023-03-15 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_--None--' is clicked on
+
+2023-03-15 22:22:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-15 22:22:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-15 22:22:11 - [TEST_STEP][PASSED] - click(findTestObject("OR_Salesforce New/Page_New Lead  Salesforce/span_Mr")): Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Mr' is clicked on
+
+2023-03-15 22:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Mr' is clicked on
+
+2023-03-15 22:22:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_First Name_firstName"), "Mohit"): Text 'Mohit' is set on object 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_First Name_firstName'
+
+2023-03-15 22:22:13 - [MESSAGE][PASSED] - Text 'Mohit' is set on object 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_First Name_firstName'
+
+2023-03-15 22:22:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Middle Name_middleName"), "Kumar"): Text 'Kumar' is set on object 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Middle Name_middleName'
+
+2023-03-15 22:22:14 - [MESSAGE][PASSED] - Text 'Kumar' is set on object 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Middle Name_middleName'
+
+2023-03-15 22:22:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input__lastName"), "Sharma"): Text 'Sharma' is set on object 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input__lastName'
+
+2023-03-15 22:22:15 - [MESSAGE][PASSED] - Text 'Sharma' is set on object 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input__lastName'
+
+2023-03-15 22:22:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_New")): Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_New' is clicked on
+
+2023-03-15 22:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_New' is clicked on
+
+2023-03-15 22:22:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-15 22:22:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-15 22:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Working")): Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Working' is clicked on
+
+2023-03-15 22:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Working' is clicked on
+
+2023-03-15 22:22:18 - [TEST_STEP][PASSED] - click(findTestObject("OR_Salesforce New/Page_New Lead  Salesforce/button_--None-- (1)")): Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_--None-- (1)' is clicked on
+
+2023-03-15 22:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_--None-- (1)' is clicked on
+
+2023-03-15 22:22:19 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-03-15 22:22:19 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+)
+[[ATTACHMENT|/Users/mohit/git/salesforce-katalon-sample/Reports/20230315_222125/TS_Salesforce New/20230315_222125/1678899139130.png]]
+
+2023-03-15 22:22:19 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/mohit/git/salesforce-katalon-sample/Reports/20230315_222125/TS_Salesforce New/20230315_222125/1678899139420.png]]
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - SKIP_REMAINING_TESTS = true: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[2023-03-15 22:22:04 - [TEST_CASE][FAILED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead" time="0.011" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead" status="SKIPPED">
+         <system-out><![CDATA[2023-03-15 22:22:19 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead: 
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner" time="0.01" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner" status="SKIPPED">
+         <system-out><![CDATA[2023-03-15 22:22:19 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner: 
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead" time="0.009" classname="Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead" status="SKIPPED">
+         <system-out><![CDATA[2023-03-15 22:22:19 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead: 
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application" time="0.009" classname="Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application" status="SKIPPED">
+         <system-out><![CDATA[2023-03-15 22:22:19 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application: 
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - println("Test Case skipped"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2023-03-15 22:22:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+2023-03-15 22:22:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-15 22:21:37 - [TEST_SUITE][FAILED] - TS_Salesforce New: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-03-15 22:21:37 - [TEST_SUITE][FAILED] - TS_Salesforce New: Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Create a Lead.run(Create a Lead:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678899085149.run(TempTestSuite1678899085149.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

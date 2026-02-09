@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "7F393FC9FBC6E07D2191F2D6982029E0",
+  "keywordClasses": [
+    {
+      "name": "webKeywords.NavigateSalesList",
+      "keywordMethods": [
+        {
+          "name": "checkSalesList",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

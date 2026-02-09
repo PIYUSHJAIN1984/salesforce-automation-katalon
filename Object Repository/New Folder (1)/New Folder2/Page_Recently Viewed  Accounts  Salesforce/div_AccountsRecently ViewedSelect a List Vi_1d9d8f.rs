@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AccountsRecently ViewedSelect a List Vi_1d9d8f</name>
+   <tag></tag>
+   <elementGuidId>e68b2bb4-bba5-4888-88d8-9093feb4d520</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.slds-grid.slds-wrap.slds-media__body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='brandBand_1']/div/div/div/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AccountsRecently ViewedSelect a List View: AccountsPin this list view.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9b822cfb-e5ef-4a9a-952e-b1ccca48663c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-grid slds-wrap slds-media__body</value>
+      <webElementGuid>6037d018-7852-4d1d-9815-df4bbe7953bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>40:1305;a</value>
+      <webElementGuid>7cea8e7f-ee32-4235-950f-a710ee9d0307</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AccountsRecently ViewedSelect a List View: AccountsPin this list view.</value>
+      <webElementGuid>53628393-d5bb-4e1e-b4ec-4e5fb3f00f81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_1&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;windowViewMode-maximized oneContent active lafPageHost&quot;]/div[@class=&quot;oneConsoleObjectHome runtime_sales_easyObjectHomeDesktop&quot;]/div[@class=&quot;test-listViewManager slds-card slds-card_boundary slds-grid slds-grid_vertical slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-page-header_object-home slds-page-header--object-home slds-page-header_joined slds-page-header_bleed slds-page-header slds-shrink-none test-headerRegion forceListViewManagerHeader&quot;]/div[@class=&quot;slds-grid resize-reflow_flex-wrap&quot;]/div[@class=&quot;slds-col slds-has-flexi-truncate firstHeaderRow&quot;]/div[@class=&quot;slds-media slds-media_center slds-no-space slds-grow&quot;]/div[@class=&quot;slds-media__body slds-align-middle&quot;]/div[@class=&quot;slds-grid slds-wrap slds-media__body&quot;]</value>
+      <webElementGuid>52615d80-0b69-434d-baf0-6d173af0c57b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_1']/div/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>267d795f-8457-414e-a8a3-585a65517705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounts'])[4]/following::div[1]</value>
+      <webElementGuid>a6c15b0e-1b89-40c9-ab4e-c2e338b862fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show more navigation items'])[1]/following::div[18]</value>
+      <webElementGuid>1165eccd-a791-4b95-8f0a-83a8799ba81d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>546e1818-d15d-407b-a6fc-5a646be3d912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AccountsRecently ViewedSelect a List View: AccountsPin this list view.' or . = 'AccountsRecently ViewedSelect a List View: AccountsPin this list view.')]</value>
+      <webElementGuid>b924e99a-632f-466a-819e-d9badc93b056</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

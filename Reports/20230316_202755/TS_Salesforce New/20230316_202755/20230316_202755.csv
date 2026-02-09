@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Salesforce New,Chrome 111.0.0.0,,,2023-03-16 20:28:08,2023-03-16 20:29:10,1m - 2.949s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce,Chrome 111.0.0.0,,,2023-03-16 20:28:08,2023-03-16 20:29:10,1m - 2.749s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 20:28:08,2023-03-16 20:28:08,0.210s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 20:28:08,2023-03-16 20:28:08,0.009s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-16 20:28:08,2023-03-16 20:28:11,3.146s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(2650, 1400)",Chrome 111.0.0.0,,,2023-03-16 20:28:11,2023-03-16 20:28:12,0.288s,PASSED
+navigateToUrl(APP_URL),Chrome 111.0.0.0,,,2023-03-16 20:28:12,2023-03-16 20:28:20,8.389s,PASSED
+"setText(findTestObject(""Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username""), USERNAME)",Chrome 111.0.0.0,,,2023-03-16 20:28:20,2023-03-16 20:28:31,11.281s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw""), PASSWORD)",Chrome 111.0.0.0,,,2023-03-16 20:28:31,2023-03-16 20:28:42,10.415s,PASSED
+"click(findTestObject(""Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login""))",Chrome 111.0.0.0,,,2023-03-16 20:28:42,2023-03-16 20:28:52,9.796s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager""), 10)",Chrome 111.0.0.0,,,2023-03-16 20:28:52,2023-03-16 20:29:10,18.944s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 20:29:10,2023-03-16 20:29:10,0.008s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 20:29:10,2023-03-16 20:29:10,0.001s,PASSED

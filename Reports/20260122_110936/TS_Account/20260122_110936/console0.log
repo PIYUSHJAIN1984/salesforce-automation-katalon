@@ -1,0 +1,17 @@
+2026-01-22 11:09:47.161 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-22 11:09:47.167 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\git\salesforce-katalon-sample\Include\config\log.properties
+2026-01-22 11:09:48.764 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Account
+2026-01-22 11:09:49.079 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-01-22 11:09:49.083 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-01-22 11:09:49.084 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-01-22 11:09:49.086 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-22 11:09:49.088 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-01-22 11:09:49.090 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-22 11:09:50.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-22 11:09:50.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1
+Skipping test case: Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1
+2026-01-22 11:09:50.533 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-01-22 11:09:50.535 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/Account Mgmt_1
+2026-01-22 11:09:50.546 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-22 11:09:50.546 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Account
+2026-01-22 11:09:50.546 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

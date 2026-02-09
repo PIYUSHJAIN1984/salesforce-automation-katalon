@@ -1,0 +1,185 @@
+2026-02-07 13:58:01.528 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-02-07 13:58:01.535 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\git\salesforce-katalon-sample\Include\config\log.properties
+2026-02-07 13:58:02.795 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Account
+2026-02-07 13:58:02.954 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-02-07 13:58:02.954 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-02-07 13:58:02.957 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-02-07 13:58:02.958 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-07 13:58:02.959 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-02-07 13:58:02.960 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-02-07 13:58:03.489 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:03.489 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Create Account_1
+2026-02-07 13:58:04.042 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 13:58:04.053 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 13:58:04.126 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 1:58:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 13:58:06.348 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5ae0ecef0b7225cd646ba6a7eb9a9c2e
+2026-02-07 13:58:06.352 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 13:58:06.352 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 13:58:06.357 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 13:58:06.379 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 13:58:08.074 DEBUG testcase.Create Account_1                - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 13:58:08.191 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:08.191 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 13:58:08.366 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 13:58:10.234 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 13:58:10.613 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 13:58:11.016 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 13:58:13.303 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 13:58:13.381 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 13:58:32.285 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/o/Account/list?filterName=Recent
+2026-02-07 13:58:33.595 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 13:58:33.602 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 13:58:37.679 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 13:58:37.686 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 13:58:37.688 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 13:58:38.131 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 13:58:38.131 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:38.149 DEBUG testcase.Create Account_1                - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Account/Create an Account_1"), [:], STOP_ON_FAILURE)
+2026-02-07 13:58:38.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:38.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1
+2026-02-07 13:58:38.562 DEBUG testcase.Create an Account_1             - 1: enhancedClick(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts"))
+2026-02-07 13:58:39.163 DEBUG testcase.Create an Account_1             - 2: click(findTestObject("Object Repository/New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/div_New"))
+2026-02-07 13:58:40.905 DEBUG testcase.Create an Account_1             - 3: dynamicName = "User_" + System.currentTimeMillis()
+2026-02-07 13:58:40.931 DEBUG testcase.Create an Account_1             - 4: setText(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/input__Account Name"), dynamicName)
+2026-02-07 13:58:44.015 DEBUG testcase.Create an Account_1             - 5: setText(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/input_Website"), "www.testtwo.com")
+2026-02-07 13:58:45.013 DEBUG testcase.Create an Account_1             - 6: click(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/button_Type"))
+2026-02-07 13:58:45.622 DEBUG testcase.Create an Account_1             - 7: click(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/span_Analyst"))
+2026-02-07 13:58:46.192 DEBUG testcase.Create an Account_1             - 8: setText(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/textarea_Description"), dynamicName)
+2026-02-07 13:58:47.265 DEBUG testcase.Create an Account_1             - 9: click(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/input_Search Accounts"))
+2026-02-07 13:58:47.849 DEBUG testcase.Create an Account_1             - 10: click(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/span_testone"))
+2026-02-07 13:58:48.766 DEBUG testcase.Create an Account_1             - 11: click(findTestObject("Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/button_SaveEdit"))
+2026-02-07 13:58:49.471 DEBUG testcase.Create an Account_1             - 12: verifyElementText(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/span_Account _test three_ was created"), "Account "" + dynamicName + "" was created.")
+2026-02-07 13:58:53.165 DEBUG testcase.Create an Account_1             - 13: verifyElementText(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/lightning-formatted-text_test three"), dynamicName)
+2026-02-07 13:58:53.607 DEBUG testcase.Create an Account_1             - 14: enhancedClick(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home"))
+2026-02-07 13:58:54.219 DEBUG testcase.Create an Account_1             - 15: waitForElementPresent(findTestObject("New Folder (1)/Page_Home  Salesforce/span_Home"), 15)
+2026-02-07 13:58:56.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/Account/Create an Account_1
+2026-02-07 13:58:56.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:56.252 DEBUG testcase.Create Account_1                - 3: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE)
+2026-02-07 13:58:56.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:56.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-02-07 13:58:56.434 DEBUG testcase.Close application               - 1: click(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/span_uiImage"))
+2026-02-07 13:58:56.898 DEBUG testcase.Close application               - 2: click(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/a_Log Out"))
+2026-02-07 13:58:58.093 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-02-07 13:58:58.093 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:58.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/New Folder/Create Account_1
+2026-02-07 13:58:58.172 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:58:58.172 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Edit Account_1
+2026-02-07 13:58:58.200 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-07 13:58:58.682 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 13:58:58.682 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 13:58:58.684 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 1:58:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 13:59:00.020 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e83ba7dfbe1afc331363f873c5dba030
+2026-02-07 13:59:00.021 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 13:59:00.021 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 13:59:00.022 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 13:59:00.023 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 13:59:02.245 DEBUG testcase.Edit Account_1                  - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 13:59:02.312 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:02.312 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 13:59:02.328 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 13:59:03.071 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 13:59:03.457 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 13:59:03.838 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 13:59:05.845 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 13:59:05.905 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 13:59:25.680 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+Already on the target URL. No click needed.
+2026-02-07 13:59:25.700 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 13:59:25.702 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 13:59:26.007 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 13:59:26.007 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 13:59:26.007 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 13:59:26.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 13:59:26.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:26.323 DEBUG testcase.Edit Account_1                  - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Account/Edit AccountName_1"), [:], STOP_ON_FAILURE)
+2026-02-07 13:59:26.399 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:26.399 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/Account/Edit AccountName_1
+2026-02-07 13:59:26.506 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) accountName = 
+2026-02-07 13:59:26.672 DEBUG testcase.Edit AccountName_1              - 1: enhancedClick(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts"))
+2026-02-07 13:59:27.291 DEBUG testcase.Edit AccountName_1              - 2: accountName = getText(findTestObject("New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/GetAcName"))
+2026-02-07 13:59:29.752 DEBUG testcase.Edit AccountName_1              - 3: println(accountName)
+User_1770452920929
+2026-02-07 13:59:29.761 DEBUG testcase.Edit AccountName_1              - 4: click(findTestObject("New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/EditAccountNameIcon", ["accountName1":accountName]))
+2026-02-07 13:59:30.534 DEBUG testcase.Edit AccountName_1              - 5: updatedName = "test_" + System.currentTimeMillis()
+2026-02-07 13:59:30.542 DEBUG testcase.Edit AccountName_1              - 6: setText(findTestObject("New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/EditAcName", ["accountName1":accountName]), updatedName)
+2026-02-07 13:59:31.644 DEBUG testcase.Edit AccountName_1              - 7: click(findTestObject("Object Repository/New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/div_AccountsAccountsRecently ViewedSelect a_a20546"))
+2026-02-07 13:59:32.133 DEBUG testcase.Edit AccountName_1              - 8: click(findTestObject("Object Repository/New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/span_Save"))
+2026-02-07 13:59:32.840 DEBUG testcase.Edit AccountName_1              - 9: waitForElementPresent(findTestObject("Object Repository/New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/span_Your changes are saved"), 10)
+2026-02-07 13:59:34.005 DEBUG testcase.Edit AccountName_1              - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/New Folder2/Page_Recently Viewed  Accounts  Salesforce/span_Your changes are saved"), "Your changes are saved.")
+2026-02-07 13:59:34.292 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/Account/Edit AccountName_1
+2026-02-07 13:59:34.292 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:34.292 DEBUG testcase.Edit Account_1                  - 3: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE)
+2026-02-07 13:59:34.388 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:34.388 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-02-07 13:59:34.433 DEBUG testcase.Close application               - 1: click(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/span_uiImage"))
+2026-02-07 13:59:34.866 DEBUG testcase.Close application               - 2: click(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/a_Log Out"))
+2026-02-07 13:59:36.255 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-02-07 13:59:36.255 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:36.282 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/New Folder/Edit Account_1
+2026-02-07 13:59:36.289 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:36.289 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce New/MainTest/New Folder/Search and Delete a Account_1
+2026-02-07 13:59:36.328 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-07 13:59:36.857 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-07 13:59:36.857 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-07 13:59:36.859 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 07, 2026 1:59:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-07 13:59:38.470 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 649dec22373e2ee6a199ff623a0ec3fb
+2026-02-07 13:59:38.471 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-07 13:59:38.472 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-07 13:59:38.472 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-07 13:59:38.473 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-07 13:59:40.853 DEBUG testcase.Search and Delete a Account_1   - 1: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1"), [:], STOP_ON_FAILURE)
+2026-02-07 13:59:40.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 13:59:40.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 13:59:40.936 DEBUG testcase.Login into Salesforce_1         - 1: setText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-07 13:59:41.772 DEBUG testcase.Login into Salesforce_1         - 2: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"))
+2026-02-07 13:59:42.172 DEBUG testcase.Login into Salesforce_1         - 3: setEncryptedText(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-07 13:59:42.538 DEBUG testcase.Login into Salesforce_1         - 4: click(findTestObject("Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login"))
+2026-02-07 13:59:44.654 DEBUG testcase.Login into Salesforce_1         - 5: maximizeWindow()
+2026-02-07 13:59:44.710 DEBUG testcase.Login into Salesforce_1         - 6: waitForElementClickable(findTestObject("New Folder (1)/Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-07 14:00:08.904 DEBUG testcase.Login into Salesforce_1         - 7: webKeywords.ApplicationFunction.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/o/Account/list?filterName=Recent
+2026-02-07 14:00:10.154 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkHomePage is PASSED
+2026-02-07 14:00:10.157 DEBUG testcase.Login into Salesforce_1         - 8: waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), 20)
+2026-02-07 14:00:13.524 DEBUG testcase.Login into Salesforce_1         - 9: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 14:00:13.524 DEBUG testcase.Login into Salesforce_1         - 10: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-07 14:00:13.524 WARN  testcase.Login into Salesforce_1         - SKIPPED NOT_RUN: verifyElementText(findTestObject("Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-07 14:00:14.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce_1
+2026-02-07 14:00:14.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 14:00:14.132 DEBUG testcase.Search and Delete a Account_1   - 2: callTestCase(findTestCase("TC_Salesforce New/RecallTest/Account/Search and Delete a Account_1"), ["accountName":""], STOP_ON_FAILURE)
+2026-02-07 14:00:14.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 14:00:14.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/Account/Search and Delete a Account_1
+2026-02-07 14:00:14.224 INFO  c.k.katalon.core.main.TestCaseExecutor   - accountName = 
+2026-02-07 14:00:14.387 DEBUG testcase.Search and Delete a Account_1   - 1: webKeywords.ApplicationFunction.checkAccountList()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+2026-02-07 14:00:15.445 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.ApplicationFunction.checkAccountList is PASSED
+2026-02-07 14:00:15.448 DEBUG testcase.Search and Delete a Account_1   - 2: accountName = getText(findTestObject("New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/getAccountName"))
+2026-02-07 14:00:17.169 DEBUG testcase.Search and Delete a Account_1   - 3: click(findTestObject("New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/input_Search this list"))
+2026-02-07 14:00:17.568 DEBUG testcase.Search and Delete a Account_1   - 4: setText(findTestObject("New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/input_Search this list"), accountName)
+2026-02-07 14:00:18.389 DEBUG testcase.Search and Delete a Account_1   - 5: click(findTestObject("New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/svg_Search this list"))
+2026-02-07 14:00:18.911 DEBUG testcase.Search and Delete a Account_1   - 6: delay(4)
+2026-02-07 14:00:22.960 DEBUG testcase.Search and Delete a Account_1   - 7: click(findTestObject("New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/span_icon"))
+2026-02-07 14:00:23.443 DEBUG testcase.Search and Delete a Account_1   - 8: click(findTestObject("New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/a_Delete"))
+2026-02-07 14:00:24.406 DEBUG testcase.Search and Delete a Account_1   - 9: verifyElementText(findTestObject("New Folder (1)/Account/Page_Delete Account/txt_DeleteAccount"), "Are you sure you want to delete this account?")
+2026-02-07 14:00:24.890 DEBUG testcase.Search and Delete a Account_1   - 10: click(findTestObject("New Folder (1)/Account/Page_Delete Account/btn_Delete"))
+2026-02-07 14:00:25.344 DEBUG testcase.Search and Delete a Account_1   - 11: verifyElementText(findTestObject("New Folder (1)/Account/Page_Delete Account/txt_Toaster Msg"), "Account "" + accountName + "" was deleted. Undo")
+2026-02-07 14:00:27.156 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/Account/Search and Delete a Account_1
+2026-02-07 14:00:27.156 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 14:00:27.162 DEBUG testcase.Search and Delete a Account_1   - 3: callTestCase(findTestCase("TC_Salesforce New/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE)
+2026-02-07 14:00:27.236 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 14:00:27.236 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-02-07 14:00:27.260 DEBUG testcase.Close application               - 1: click(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/span_uiImage"))
+2026-02-07 14:00:27.693 DEBUG testcase.Close application               - 2: click(findTestObject("Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/a_Log Out"))
+2026-02-07 14:00:28.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application
+2026-02-07 14:00:28.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-07 14:00:28.889 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce New/MainTest/New Folder/Search and Delete a Account_1
+2026-02-07 14:00:28.892 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-07 14:00:28.892 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Account
+2026-02-07 14:00:28.892 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Salesforce New,Chrome 111.0.0.0,,,2023-03-16 17:24:18,2023-03-16 17:25:28,1m - 9.979s,FAILED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce,Chrome 111.0.0.0,,,2023-03-16 17:24:19,2023-03-16 17:24:51,32.055s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:24:19,2023-03-16 17:24:19,0.366s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:24:19,2023-03-16 17:24:19,0.012s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-16 17:24:20,2023-03-16 17:24:28,8.318s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(2650, 1400)",Chrome 111.0.0.0,,,2023-03-16 17:24:28,2023-03-16 17:24:29,0.489s,PASSED
+navigateToUrl(APP_URL),Chrome 111.0.0.0,,,2023-03-16 17:24:29,2023-03-16 17:24:32,3.434s,PASSED
+"setText(findTestObject(""Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username""), USERNAME)",Chrome 111.0.0.0,,,2023-03-16 17:24:32,2023-03-16 17:24:33,1.311s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw""), PASSWORD)",Chrome 111.0.0.0,,,2023-03-16 17:24:33,2023-03-16 17:24:34,0.830s,PASSED
+"click(findTestObject(""Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login""))",Chrome 111.0.0.0,,,2023-03-16 17:24:34,2023-03-16 17:24:35,0.953s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager""), 10)",Chrome 111.0.0.0,,,2023-03-16 17:24:35,2023-03-16 17:24:51,15.522s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:24:51,0.059s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:24:51,0.038s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead,Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:25:28,36.934s,FAILED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:24:51,0.059s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:24:51,0.023s,PASSED
+"enhancedClick(findTestObject(""Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads""))",Chrome 111.0.0.0,,,2023-03-16 17:24:51,2023-03-16 17:25:28,36.535s,FAILED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.006s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/Lead/Change status from a Lead,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.052s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.033s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.002s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/Lead/Change the Lead Owner,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.030s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.002s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.002s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.003s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/Lead/Search a Lead by name and Delete a Lead,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.022s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.005s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Close application,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.017s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.003s,PASSED
+Start listener action : enableSauceLabs,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 111.0.0.0,,,2023-03-16 17:25:28,2023-03-16 17:25:28,0.001s,PASSED

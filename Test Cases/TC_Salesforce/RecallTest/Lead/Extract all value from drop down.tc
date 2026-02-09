@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Extract all value from drop down</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfe969b1-ea3e-405f-bd0e-c8ac2ffd9fbf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf6e46a1-6eea-48df-b88e-733652a69e31</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Salesforce').getValue('LeadStatus', 1), findTestData('Salesforce').getValue('LeadStatus', 2), findTestData('Salesforce').getValue('LeadStatus', 3), findTestData('Salesforce').getValue('LeadStatus', 4), findTestData('Salesforce').getValue('LeadStatus', 5), findTestData('Salesforce').getValue('LeadStatus', 6), findTestData('Salesforce').getValue('LeadStatus', 7), findTestData('Salesforce').getValue('LeadStatus', 8), findTestData('Salesforce').getValue('LeadStatus', 9)]</defaultValue>
+      <description></description>
+      <id>cf6e46a1-6eea-48df-b88e-733652a69e31</id>
+      <masked>false</masked>
+      <name>LeadStatus</name>
+   </variable>
+</TestCaseEntity>
