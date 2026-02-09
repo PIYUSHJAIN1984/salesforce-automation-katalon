@@ -1,94 +1,53 @@
-# Introduction
+# Salesforce Automation Project (Katalon Studio)
 
-This project demonstrates how Katalon Studio helps users to automate the Salesforce applications. it contains some of the test cases for Lead, Case, & Account Management. The Dashboard Management test cases contain an example for the iframe.
+## 📌 Project Overview
+This repository contains a comprehensive automated testing suite for **Salesforce**, developed using **Katalon Studio**. The project demonstrates the ability to automate Salesforce workflows, handle dynamic web elements, and implement data-driven testing strategies.
 
-# Requirements
+**Target Application:** Salesforce Demo / Developer Environment  
+**Tooling:** Katalon Studio [10.4.3] (Trial License)
 
-* [Katalon Studio][KS]
-* Salesforce Account
+---
 
-# Use case
+## 🚀 Key Features & Capabilities
+I utilized advanced Katalon features to build automation test scripts and framework:
 
-For this sample project we are covering below mentioned use cases.
+* **Standard & Custom Objects:** Automated end-to-end flows for **Accounts**, **Contacts**, and **Opportunities**, as well as specialized **Custom Objects**.
+* **Data-Driven Testing (DDT):** Integrated **Data Files** to execute test cases with multiple sets of data, increasing test coverage.
+* **Dynamic Locators:** Implemented robust XPath and CSS strategies to handle Salesforce's dynamic element IDs and complex DOM structures.
+* **Object Repository:** Maintained a clean, organized hierarchy of web elements for high reusability.
+* **Execution Profiles:** Used profiles to manage environment-specific variables like URLs and credentials.
 
-Use Case No 1: Lead Management in Salesforce.
-     
-   Test Case:
-   
-      * Login into salesforce account
-      * Create a new lead
-      * Change status for a lead
-      * Change the lead owner
-      * Search lead with name and delete a lead
-      * Close application
-           
-Use Case No 2: Case Management in Salesforce.
+---
 
-   Test Case:
-   
-      * Login into salesforce account
-      * Create a new case
-      * Cedit a case and change the status
-      * Search a case by ID and delete a case
-      * Close application
-      
-Use Case No 3: Account Management in Salesforce.
-     
-   Test Case:
-   
-      * Login into salesforce account
-      * Create an account
-      * Close application
-      
-Use Case No 4: Dashboard Management in Salesforce.
+## 🛠️ Automated Test Scenarios
+| Module | Description | Features Used |
+| :--- | :--- | :--- |
+| **Accounts** | Creation, validation, editing , search and Deletion of Account records. | Web UI Keywords |
+| **Contacts** | Linking Contacts to Accounts, updating title of Contacts , Search and Deletion of contact records. | Web UI Keywords|
+| **Opportunities** | Create opportunity from Contact, Edit opportunity details, Search and deletion of opportunity. | Web UI Keywords |
+| **Custom Objects** | Created customized xpaths for dynamic locators to avoid script maintenance. | Dynamic XPaths |
 
-  Test Case:
-  
-      * Login into salesforce account
-      * Create a dashboard
-      * Create a component and add the report
-      * Create a filter
-      * Delete a dashboard
-      * Close application
+---
 
-# How to automate
+## 📁 Project Structure
+* **Test Cases:** Logical grouping of scripts by Salesforce module.
+* **Object Repository:** Centralized storage for all UI elements.
+* **Data Files:** Internal sheets used for driving automated inputs.
+* **Test Suites:** Collections and Test Suite of test cases created 
 
-**Costomize Setting before recording a test case**
+---
 
-* Go to project >> Settings >> Test Design >> WebUI and Change the priority of Xpath Locators. [Here][1]
+## ⚙️ Setup & Execution
+1.  **Clone the Repo:** `git clone <your-repo-url>`
+2.  **Open in Katalon:** Launch Katalon Studio and select **File > Open Project**.
+3.  **WebDriver:** Ensure your Chrome/Edge drivers are updated via `Tools > Update WebDrivers`.
+4.  **Credentials:** Update the `default` Execution Profile with your Salesforce trial credentials before running tests.
 
-![image](https://user-images.githubusercontent.com/84115288/214218084-b99e47c5-be63-49ad-89c2-fb4bcbcebb83.png)
+---
 
-* Add Desired Capability to handle Popup (Show Notification) [Here][2]
-
-![image](https://user-images.githubusercontent.com/84115288/216290474-1b02af8d-7b78-49bf-a29c-4cfde6bdcb8a.png)
-
-* Record test script via Katalon Recorder. [Here][3]
-
-* Save test objects and test cases. 
-
-* Run the test execution. [Here][5]
-
-* Verify the test execution result. [Here][6]
-
-**After Recording a test case if execution is failing because of "Element not interactable" exception then please change keyword "Click" to "Enhanced Click"**
-
-* ![image](https://user-images.githubusercontent.com/84115288/214219707-cee7a5cd-d1f3-4ac5-a2a2-009667e4d598.png)
-
-**How to run this sample project**
-
-* Update the application Salesforce application URL, Username, and Password inside the Default Profile. [Here][4]
-
-<img width="818" alt="Katalon profile view" src="https://user-images.githubusercontent.com/1128/214109634-f63eebd2-4433-4c4a-9d9a-dcc89b10df34.png">
-
-* Run the test execution. [Here][5]
-
-* Verify the test execution result. [Here][6]
-
-[1]: <https://docs.katalon.com/docs/maintain/self-healing-tests-in-katalon-studio#configure-test-design> "Here"
-[2]: <https://docs.katalon.com/docs/author/manage-projects/project-settings/desired-capabilities/manage-desired-capabilities-in-katalon-studio#ariaid-title1> "Here"
-[3]: <https://docs.katalon.com/docs/author/record-and-spy/webui-record-and-spy-utilities/record-web-utility-in-katalon-studio#record-a-new-test-case> "Here"
-[4]: <https://docs.katalon.com/docs/author/data-driven-testing/global-variables-and-execution-profile#execution-profile> "Here"
-[5]: <https://docs.katalon.com/docs/execute/execute-tests-with-katalon-studio/execute-tests-with-katalon-studio-overview#ariaid-title1> "Here"
-[6]: <https://docs.katalon.com/docs/analyze/reports/view-test-reports/view-test-reports-in-katalon-testops/view-test-results-and-execution-logs-in-katalon-testops#ariaid-title1> "Here"
-[KS]: <https://docs.katalon.com/docs/get-started/katalon-studio-installation/install-katalon-studio-on-macoswindows#download-katalon-studio> "Katalon Studio"
+## 📝 Skills Demonstrated
+* Parameterization of test scripts for scalability.
+* Professional Git workflow and repository management.
+* Handling asynchronous loading (AJAX) using smart Wait statements.
+* Created Custom Keywords to automatically handle Salesforce navigation after login, ensuring tests start smoothly every time without manual intervention.
+* Using trial license I have also completed **Katalon Practitioner Certification**
