@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mr</name>
+   <tag></tag>
+   <elementGuidId>981c97ce-6f84-4344-b93c-18939268e48c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Mr.' or . = 'Mr.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-value=&quot;Mr\.&quot;] .slds-media__body[lwc-7co8ha3nedg=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Mr.&quot;i] >> span >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9e583322-3aef-4299-8199-92d8d55366d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-media__body</value>
+      <webElementGuid>01e6cd20-d714-41c1-a585-ba3197aee221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mr.</value>
+      <webElementGuid>4787d8cc-d690-4567-9773-59135a83300e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-46935ce6a26bcb180f1ec5337efffa7e</value>
+      <webElementGuid>fd14b535-560d-4187-9f4d-8b6d3e82e12e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-value = 'Mr.']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-media__body ') and (@lwc-7co8ha3nedg = '')]</value>
+      <webElementGuid>757f7276-5104-4c85-a4f0-2c2fd60ab94c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-value = 'Mr.']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-media__body ') and (@lwc-7co8ha3nedg = '')]</value>
+      <webElementGuid>85a987b1-dca0-4f7d-acc0-4056e15d7d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mr.' or . = 'Mr.')]</value>
+      <webElementGuid>a40c2caa-6284-482d-a465-a39b2709f5ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

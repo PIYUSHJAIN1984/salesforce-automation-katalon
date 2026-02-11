@@ -4,5 +4,6 @@
    <name>Change status from a Lead</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4fcfe40a-0c71-40fb-bd55-290da715ad2f</testCaseGuid>
 </TestCaseEntity>

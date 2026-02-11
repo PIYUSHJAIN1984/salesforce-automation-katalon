@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/button_Search'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/input_search'), 'Mohit Kumar Sharma')
+WebUI.sendKeys(findTestObject('null'), 'Mohit Kumar Sharma')
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Mohit Sharma  Salesforce/button_Delete'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Mohit Sharma  Salesforce/span_Delete'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Lead Mohit Sharma was deleted. Undo'), 
+WebUI.verifyElementText(findTestObject('null'), 
     'Lead "Mohit Kumar Sharma" was deleted. Undo', FailureHandling.OPTIONAL)
 

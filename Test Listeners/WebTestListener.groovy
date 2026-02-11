@@ -49,7 +49,7 @@ class WebTestListener {
 			// Only open the browser if we aren't skipping
 			WebUI.openBrowser('')
 			WebUI.navigateToUrl(GlobalVariable.APP_URL)
-		//	WebUI.maximizeWindow()
+		    WebUI.maximizeWindow()
 		}
 		
 		
@@ -70,19 +70,5 @@ class WebTestListener {
 		if(testCaseContext.testCaseStatus=='FAILED'){
 			GlobalVariable.SKIP_REMAINING_TESTS = true
 		}
-	}
-
-	//@BeforeTestSuite
-	def OpenBrowserBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		WebUI.openBrowser(GlobalVariable.URL)
-		WebUI.maximizeWindow()
-		String strTitle = WebUI.getWindowTitle()
-		WebUI.verifyMatch(strTitle, 'CURA Healthcare Service', false)
-	}
-
-
-	//@AfterTestSuite
-	def CloseBrowserAfterTestSuite(TestSuiteContext testSuiteContext) {
-		//	WebUI.closeBrowser()
 	}
 }

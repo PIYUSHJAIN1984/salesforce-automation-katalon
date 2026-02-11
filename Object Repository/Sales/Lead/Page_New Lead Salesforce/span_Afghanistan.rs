@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Afghanistan</name>
+   <tag></tag>
+   <elementGuidId>7f681a1a-ce64-49ab-92b5-ccc05b5f5a8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Afghanistan']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[title=&quot;Afghanistan&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Afghanistan&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c42f5cc9-a1c0-46d3-b6e2-3d2cca21cc9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Afghanistan</value>
+      <webElementGuid>e665c9fb-0395-4811-b2ba-939a9be9913b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Afghanistan</value>
+      <webElementGuid>d584885c-1f62-4647-a9b0-d480c0ff87d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-484ba450e1da6d8b030bc355512cffa4</value>
+      <webElementGuid>b1b97e99-ca35-40df-9cd0-52958a073f81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@title = 'Afghanistan']</value>
+      <webElementGuid>d998cf7c-5f1f-46db-8e2e-4625eb802cdd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = 'Afghanistan']</value>
+      <webElementGuid>59674662-7a5c-4076-a465-3e4d5f4a4c10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Afghanistan' and (text() = 'Afghanistan' or . = 'Afghanistan')]</value>
+      <webElementGuid>4be6ebfe-3a45-454f-88c4-d7afb69a4288</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -31,7 +31,7 @@ public class NavigateHomePage {
 		if (currentUrl.equals(targetUrl)) {
 			println "Already on the target URL. No click needed."
 		}else {
-			WebUI.enhancedClick(findTestObject('Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home'))
+			WebUI.enhancedClick(findTestObject('Object Repository/Page_Home  Salesforce/link_Home'))
 		}
 	}
 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_testone</name>
+   <tag></tag>
+   <elementGuidId>217b04f5-deca-4ef4-b2d8-553a67b440d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.slds-listbox__item:nth-child(3) .slds-listbox__option-text_entity</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@title='testone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;testone&quot;i] >> span >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e0399e3a-d417-49d5-a7b0-0582294f58d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-listbox__option-text slds-listbox__option-text_entity</value>
+      <webElementGuid>6844201a-73f4-4971-8e9e-ec4b309b8bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>testone</value>
+      <webElementGuid>9f6e7a3c-df2e-44bd-85a4-36691a5edc68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-cc8d9b1195d2f18b3416b5c18f085d27</value>
+      <webElementGuid>19e95d13-0d5b-4a63-91d8-83cedeec3501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-listbox__item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-listbox__option-text_entity ')]</value>
+      <webElementGuid>c1730933-9ff4-4205-bf5c-fb02cdbc8b6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-listbox__item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' slds-listbox__option-text_entity ')]</value>
+      <webElementGuid>bc4f268b-629a-4b64-9ff5-9284dda998e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'testone' or . = 'testone')]</value>
+      <webElementGuid>1e876e0f-2fb5-41e4-8411-ccfec36de489</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

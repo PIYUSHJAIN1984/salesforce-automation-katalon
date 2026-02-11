@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Status of Lead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37e85c1c-966b-4da1-8c8a-27a0e6d388f9</testCaseGuid>
+</TestCaseEntity>

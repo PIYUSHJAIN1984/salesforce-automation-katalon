@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_LeadStatus</name>
+   <tag></tag>
+   <elementGuidId>72a8787f-7067-4269-b35a-c6467f07d19d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>lightning-formatted-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Edit Lead Status']//span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;account manager1&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lightning-formatted-text</value>
+      <webElementGuid>f2198bfc-b60b-4fb5-ae30-3a1a2efc0b96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-output-element-id</name>
+      <type>Main</type>
+      <value>output-field</value>
+      <webElementGuid>b94ea9d2-98f3-4c56-a5ba-5fbfa93fd16b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>slot</name>
+      <type>Main</type>
+      <value>outputField</value>
+      <webElementGuid>f088c336-e0b8-46cc-9df3-44723ffe46a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>account manager1</value>
+      <webElementGuid>55aee836-3a25-4883-aa1c-5b3fa0db18ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sectionContent-230&quot;)/div[@class=&quot;slds-form&quot;]/slot[1]/records-record-layout-row[@class=&quot;slds-form__row form-element_1-col&quot;]/slot[@class=&quot;slds-grid slds-size_1-of-1&quot;]/records-record-layout-item[@class=&quot;slds-form__item slds-no-space&quot;]/div[@class=&quot;slds-grid slds-size_1-of-1 label-stacked&quot;]/div[@class=&quot;slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing&quot;]/div[@class=&quot;slds-form-element__control&quot;]/span[@class=&quot;test-id__field-value slds-form-element__static slds-grow word-break-ie11&quot;]/slot[1]/lightning-formatted-text[1]</value>
+      <webElementGuid>8e31c0c9-076a-48d5-a324-78918e00a529</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sectionContent-230']/div/slot/records-record-layout-row[3]/slot/records-record-layout-item/div/div/div[2]/span/slot/lightning-formatted-text</value>
+      <webElementGuid>1b4aa3fd-27ed-4b0b-b52c-388931d24589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::lightning-formatted-text[1]</value>
+      <webElementGuid>65f0f81a-0707-44b8-80f2-0dc687c754c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Account Name'])[1]/following::lightning-formatted-text[1]</value>
+      <webElementGuid>effdefce-577c-492f-9b64-0627d3b79461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Title'])[1]/preceding::lightning-formatted-text[1]</value>
+      <webElementGuid>cb052859-41b6-421a-8216-00ba015c6b65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports To'])[1]/preceding::lightning-formatted-text[1]</value>
+      <webElementGuid>46110096-6c11-4fd0-8d5c-af68256658f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='account manager1']/parent::*</value>
+      <webElementGuid>bb1ffe62-14af-48a1-800a-71d7a005ab47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lightning-formatted-text</value>
+      <webElementGuid>decdfe77-d9f1-4ec8-9731-9bb557d3debd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//lightning-formatted-text[(text() = 'account manager1' or . = 'account manager1')]</value>
+      <webElementGuid>86d36923-1ebb-495b-b9b6-93c914339e75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

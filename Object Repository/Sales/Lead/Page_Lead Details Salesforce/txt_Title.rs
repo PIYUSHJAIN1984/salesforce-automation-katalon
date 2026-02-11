@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Title</name>
+   <tag></tag>
+   <elementGuidId>2bfd62e1-f6e9-4879-adc2-858cd9015b2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//lightning-formatted-text[normalize-space()='${newTitle}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Edit Title&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9d973895-0eb3-42be-b985-72a1c8a98cd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f38ff3e8-8759-481e-b986-639c9ec7a481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-grid highlights-primary-row inline-edit-trigger-icon</value>
+      <webElementGuid>2a774779-d3a1-463b-bc40-a6c65d686068</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sectionContent-230&quot;)/div[@class=&quot;slds-form&quot;]/slot[1]/records-record-layout-row[@class=&quot;slds-form__row form-element_1-col&quot;]/slot[@class=&quot;slds-grid slds-size_1-of-1&quot;]/records-record-layout-item[@class=&quot;slds-form__item slds-no-space&quot;]/div[@class=&quot;slds-grid slds-size_1-of-1 label-stacked&quot;]/div[@class=&quot;slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing&quot;]/div[@class=&quot;slds-form-element__control&quot;]/button[@class=&quot;test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon&quot;]/span[@class=&quot;slds-grid highlights-primary-row inline-edit-trigger-icon&quot;]</value>
+      <webElementGuid>3332f8a1-fdf9-40b6-ad2e-e5e2df17ab38</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sectionContent-230']/div/slot/records-record-layout-row[3]/slot/records-record-layout-item/div/div/div[2]/button/span</value>
+      <webElementGuid>73e42a8c-6121-4c52-bcfa-f14f18ff685b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//records-record-layout-row[3]/slot/records-record-layout-item/div/div/div[2]/button/span</value>
+      <webElementGuid>970112f2-101d-41a9-8929-2d9bc4f5f078</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

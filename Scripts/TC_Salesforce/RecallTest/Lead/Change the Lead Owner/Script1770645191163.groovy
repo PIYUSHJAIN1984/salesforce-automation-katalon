@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Leads'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Action_slds-checkbox--faux'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_Change Owner'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/input_Pick an object_92023a'), 
+WebUI.setText(findTestObject('null'), 
     'Srivatsa ')
 
 WebUI.delay(4)
 
-WebUI.enhancedClick(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img_Mohit Kuma_icon', [('username') : 'Srivatsa']))
+WebUI.enhancedClick(findTestObject('null', [('username') : 'Srivatsa']))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Submit'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_toastMessage slds-text-heading--small _f3870d'), 
+WebUI.verifyElementText(findTestObject('null'), 
     '1 owner has been changed.')
 

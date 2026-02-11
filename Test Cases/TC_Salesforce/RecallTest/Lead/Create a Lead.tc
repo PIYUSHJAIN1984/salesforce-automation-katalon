@@ -4,5 +4,32 @@
    <name>Create a Lead</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>67f0cd2c-c10e-4ebf-9946-28ed55f825c1</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b695c8ff-4827-4c6b-8d19-ba82874f393f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e458de3b-3948-49f1-af9c-fff1f6e30ff4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f718e3d9-6edd-4ceb-a738-81f6b19b6502</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e458de3b-3948-49f1-af9c-fff1f6e30ff4</id>
+      <masked>false</masked>
+      <name>salutation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f718e3d9-6edd-4ceb-a738-81f6b19b6502</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
 </TestCaseEntity>

@@ -17,16 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.enhancedClick(findTestObject('New Folder (1)/Page_Home  Salesforce/img_Contacts'))
+WebUI.enhancedClick(findTestObject('Page_Home  Salesforce/img_Contacts'))
 
-WebUI.click(findTestObject('New Folder (1)/Contact/Page_Recently Viewed  Contacts  Salesforce/getContactName'))
+WebUI.click(findTestObject('Contact/Page_Recently Viewed  Contacts  Salesforce/getContactName'))
 
-WebUI.click(findTestObject('New Folder (1)/Contact/Page_Contact Details Salesforce/btn_EditTitle'))
+WebUI.click(findTestObject('Contact/Page_Contact Details Salesforce/btn_EditTitle'))
 
-WebUI.setText(findTestObject('New Folder (1)/Contact/Page_Contact Details Salesforce/input_Title'), newTitle)
+WebUI.setText(findTestObject('Contact/Page_Contact Details Salesforce/input_Title'), newTitle)
 
-WebUI.click(findTestObject('New Folder (1)/Contact/Page_Contact Details Salesforce/button_Save'))
+WebUI.click(findTestObject('Contact/Page_Contact Details Salesforce/button_Save'))
 
-WebUI.verifyElementText(findTestObject('New Folder (1)/Contact/Page_Contact Details Salesforce/txt_Title', [('newTitle') : newTitle]), 
+WebUI.verifyElementText(findTestObject('Contact/Page_Contact Details Salesforce/txt_Title', [('newTitle') : newTitle]), 
     newTitle)
 

@@ -6,12 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5d3b497c-2469-4cdf-925b-77895040cad3</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>603efcb8-ec9d-454e-9cbe-86016d7490e4</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'Admin'</defaultValue>
       <description></description>

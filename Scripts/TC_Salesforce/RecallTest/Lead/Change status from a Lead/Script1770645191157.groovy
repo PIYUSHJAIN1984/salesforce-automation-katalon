@@ -17,20 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
+CustomKeywords.'webKeywords.NavigateSalesList.checkSalesList'()
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Action_slds-checkbox--faux'))
+WebUI.click(findTestObject('Sales/Lead/Page_All Open Leads  Leads  Salesforce/getLeadName'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_Change Status'))
+WebUI.click(findTestObject('Sales/Lead/Page_Lead Details Salesforce/btn_LeadStatus'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/a_New (1)'))
+WebUI.click(findTestObject('Sales/Lead/Page_Lead Details Salesforce/span_dropdown'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Sales/Lead/Page_Lead Details Salesforce/span_Contacted'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/a_Calendly'))
+WebUI.click(findTestObject('Sales/Lead/Page_Lead Details Salesforce/button_Save'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/button_Save'))
+WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Status was updated for 1 lead'), 
-    'Status was updated for 1 lead.', FailureHandling.OPTIONAL)
+WebUI.verifyElementText(findTestObject('Sales/Lead/Page_Lead Details Salesforce/txt_Contacted'), 'Contacted')
 

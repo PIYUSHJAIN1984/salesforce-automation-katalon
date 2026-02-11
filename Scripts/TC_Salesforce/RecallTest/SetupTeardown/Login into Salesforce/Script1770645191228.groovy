@@ -17,23 +17,23 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 //WebUI.openBrowser('')
 //WebUI.navigateToUrl('https://data-momentum-7717.my.salesforce.com/')
-WebUI.setText(findTestObject('Object Repository/New Folder (1)/Page_Login  Salesforce/input_Username'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('Object Repository/Page_Login  Salesforce/input_Username'), GlobalVariable.USERNAME)
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password'))
+WebUI.click(findTestObject('Object Repository/Page_Login  Salesforce/input_Password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/New Folder (1)/Page_Login  Salesforce/input_Password'), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Salesforce/input_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Page_Login  Salesforce/input_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Login  Salesforce/input_Login'))
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('New Folder (1)/Page_Home  Salesforce/link_Home'), 30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Page_Home  Salesforce/link_Home'), 30, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'webKeywords.ApplicationFunction.checkHomePage'()
+CustomKeywords.'webKeywords.NavigateHomePage.checkHomePage'()
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home'), 20)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Home  Salesforce/span_Home'), 20)
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/New Folder (1)/Page_Home  Salesforce/span_Home'), 'Home')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Home  Salesforce/span_Home'), 'Home')
 
-WebUI.verifyElementText(findTestObject('Object Repository/New Folder (1)/Page_Home  Salesforce/h2_Welcome, PIYUSH'), 'Welcome, PIYUSH')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Home  Salesforce/h2_Welcome, PIYUSH'), 'Welcome, PIYUSH')
 

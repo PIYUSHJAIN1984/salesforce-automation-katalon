@@ -17,35 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.enhancedClick(findTestObject('Object Repository/New Folder (1)/Page_Home  Salesforce/img_Accounts'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Home  Salesforce/img_Accounts'))
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Account/Page_Recently Viewed  Accounts  Salesforce/div_New'))
+WebUI.click(findTestObject('Object Repository/Account/Page_Recently Viewed  Accounts  Salesforce/div_New'))
 
 String dynamicName = 'User_' + System.currentTimeMillis()
 
-WebUI.setText(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/input__Account Name'), dynamicName)
+WebUI.setText(findTestObject('Object Repository/Account/Page_New Account  Salesforce/input__Account Name'), dynamicName)
 
-WebUI.setText(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/input_Website'), 'www.testtwo.com')
+WebUI.setText(findTestObject('Object Repository/Account/Page_New Account  Salesforce/input_Website'), 'www.testtwo.com')
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/button_Type'))
+WebUI.click(findTestObject('Object Repository/Account/Page_New Account  Salesforce/button_Type'))
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/span_Analyst'))
+WebUI.click(findTestObject('Object Repository/Account/Page_New Account  Salesforce/span_Analyst'))
 
-WebUI.setText(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/textarea_Description'), dynamicName)
+WebUI.setText(findTestObject('Object Repository/Account/Page_New Account  Salesforce/textarea_Description'), dynamicName)
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/input_Search Accounts'))
+WebUI.click(findTestObject('Object Repository/Account/Page_New Account  Salesforce/input_Search Accounts'))
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/span_testone'))
+WebUI.click(findTestObject('Object Repository/Account/Page_New Account  Salesforce/span_testone'))
 
-WebUI.click(findTestObject('Object Repository/New Folder (1)/Account/Page_New Account  Salesforce/button_SaveEdit'))
+WebUI.click(findTestObject('Object Repository/Account/Page_New Account  Salesforce/button_SaveEdit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/span_Account _test three_ was created'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Account/Page_New Account  Salesforce/span_toastMsg'), 
     ('Account "' + dynamicName) + '" was created.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/New Folder (1)/Account/Page_test three  Account  Salesforce/lightning-formatted-text_test three'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Account/Page_Account Details Salesforce/txt_AccountName'), 
     dynamicName)
 
-WebUI.enhancedClick(findTestObject('Object Repository/New Folder (1)/Page_Home  Salesforce/link_Home'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Home  Salesforce/link_Home'))
 
-WebUI.waitForElementPresent(findTestObject('New Folder (1)/Page_Home  Salesforce/span_Home'), 15)
+WebUI.waitForElementPresent(findTestObject('Page_Home  Salesforce/span_Home'), 15)
 

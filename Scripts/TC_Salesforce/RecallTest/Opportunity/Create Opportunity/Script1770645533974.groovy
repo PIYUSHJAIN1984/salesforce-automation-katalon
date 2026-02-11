@@ -4,12 +4,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 CustomKeywords.'webKeywords.ApplicationFunction.checkContactList'()
 
-contactName = WebUI.getText(findTestObject('New Folder (1)/Contact/Page_Recently Viewed  Contacts  Salesforce/getContactName'))
+contactName = WebUI.getText(findTestObject('Contact/Page_Recently Viewed  Contacts  Salesforce/getContactName'))
 
-WebUI.click(findTestObject('New Folder (1)/Contact/Page_Recently Viewed  Contacts  Salesforce/getContactName'))
+WebUI.click(findTestObject('Contact/Page_Recently Viewed  Contacts  Salesforce/getContactName'))
 
 // 1. Get the text first
-String actualText = WebUI.getText(findTestObject('New Folder (1)/Contact/Page_Contact Details Salesforce/txt_ContactName', 
+String actualText = WebUI.getText(findTestObject('Contact/Page_Contact Details Salesforce/txt_ContactName', 
         [('contact_Name') : contactName]))
 
 if (actualText.contains(contactName)) {
@@ -18,7 +18,7 @@ if (actualText.contains(contactName)) {
     KeywordUtil.markFailed('Text not found! Actual was: ' + actualText)
 }
 
-WebUI.click(findTestObject('New Folder (1)/Contact/Page_Contact Details Salesforce/btn_NewOppty'))
+WebUI.click(findTestObject('Contact/Page_Contact Details Salesforce/btn_NewOppty'))
 
 WebUI.verifyElementPresent(findTestObject('New Folder (1)/Opportunity/Page_New Opportunity Salesforce/popup_NewOpportunity'), 
     10)
@@ -27,7 +27,7 @@ WebUI.clearText(findTestObject('New Folder (1)/Opportunity/Page_New Opportunity 
 
 WebUI.setText(findTestObject('New Folder (1)/Opportunity/Page_New Opportunity Salesforce/input_OpptyName'), opportunityName)
 
-WebUI.click(findTestObject('New Folder (1)/Opportunity/Page_New Opportunity Salesforce/dropdown_Stage'))
+WebUI.click(findTestObject('Sales/Opportunity/Page_New Opportunity Salesforce/dropdown_Stage'))
 
 WebUI.click(findTestObject('New Folder (1)/Opportunity/Page_New Opportunity Salesforce/dropdown_Value'))
 
