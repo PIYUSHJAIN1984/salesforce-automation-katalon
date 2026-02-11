@@ -25,6 +25,7 @@ I utilized advanced Katalon features to build automation test scripts and framew
 | **Accounts** | Creation, validation, editing , search and Deletion of Account records. | Web UI Keywords |
 | **Contacts** | Linking Contacts to Accounts, updating title of Contacts , Search and Deletion of contact records. | Web UI Keywords|
 | **Opportunities** | Create opportunity from Contact, Edit opportunity details, Search and deletion of opportunity. | Web UI Keywords |
+| **Leads** | Create Leads and change status of Lead. | Web UI Keywords |
 | **Custom Objects** | Created customized xpaths for dynamic locators to avoid script maintenance. | Dynamic XPaths |
 
 ---
