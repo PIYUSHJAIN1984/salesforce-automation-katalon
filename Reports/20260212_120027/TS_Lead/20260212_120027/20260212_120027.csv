@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Lead,Chrome 144.0.7559.133,,,12-02-2026 12:00:44,12-02-2026 12:01:55,1m - 11.317s,SKIPPED
+,,,,,,,
+Test Cases/TC_Salesforce/MainTest/Lead/Create Lead,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.161s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.124s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.043s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.013s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.042s,SKIPPED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.008s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,12-02-2026 12:01:55,12-02-2026 12:01:55,0.004s,PASSED

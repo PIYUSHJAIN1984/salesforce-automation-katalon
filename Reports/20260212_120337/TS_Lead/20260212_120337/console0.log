@@ -1,0 +1,208 @@
+2026-02-12 12:03:46.784 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-02-12 12:03:46.793 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\Katalon Studio\salesforce-automation-katalon\Include\config\log.properties
+2026-02-12 12:03:47.731 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Lead
+2026-02-12 12:03:47.896 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-02-12 12:03:47.899 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-02-12 12:03:47.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-02-12 12:03:47.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-12 12:03:47.902 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-02-12 12:03:47.904 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-02-12 12:03:48.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:03:48.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+2026-02-12 12:03:49.064 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-12 12:03:49.071 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-12 12:03:49.117 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 12, 2026 12:03:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-12 12:03:51.810 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6cf92a4fcaa4e333fc1e715d83416d9f
+2026-02-12 12:03:51.813 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-12 12:03:51.813 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-12 12:03:51.815 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-12 12:03:51.829 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-12 12:03:54.424 DEBUG testcase.Create Lead                     - 1: callTestCase(findTestCase("TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce"), [:], STOP_ON_FAILURE)
+2026-02-12 12:03:54.887 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:03:54.887 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:03:55.715 DEBUG testcase.Login into Salesforce           - 1: setText(findTestObject("Object Repository/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-12 12:03:56.848 DEBUG testcase.Login into Salesforce           - 2: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"))
+2026-02-12 12:03:57.297 DEBUG testcase.Login into Salesforce           - 3: setEncryptedText(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-12 12:03:57.806 DEBUG testcase.Login into Salesforce           - 4: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Login"))
+2026-02-12 12:04:00.147 DEBUG testcase.Login into Salesforce           - 5: maximizeWindow()
+2026-02-12 12:04:00.156 WARN  testcase.Login into Salesforce           - SKIPPED NOT_RUN: maximizeWindow()
+2026-02-12 12:04:00.161 DEBUG testcase.Login into Salesforce           - 6: waitForElementClickable(findTestObject("Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-12 12:04:20.056 DEBUG testcase.Login into Salesforce           - 7: webKeywords.NavigateHomePage.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+Already on the target URL. No click needed.
+2026-02-12 12:04:20.127 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateHomePage.checkHomePage is PASSED
+2026-02-12 12:04:20.132 DEBUG testcase.Login into Salesforce           - 8: waitForElementVisible(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), 20)
+2026-02-12 12:04:20.546 DEBUG testcase.Login into Salesforce           - 9: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-12 12:04:21.592 DEBUG testcase.Login into Salesforce           - 10: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-12 12:04:21.909 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:04:21.909 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:04:21.934 DEBUG testcase.Create Lead                     - 2: callTestCase(findTestCase("TC_Salesforce/RecallTest/Lead/Create a Lead"), [:], STOP_ON_FAILURE)
+2026-02-12 12:04:22.021 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:04:22.021 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead
+2026-02-12 12:04:22.187 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) salutation = 
+2026-02-12 12:04:22.187 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) firstname = 
+2026-02-12 12:04:22.779 DEBUG testcase.Create a Lead                   - 1: webKeywords.NavigateSalesList.checkSalesList()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+2026-02-12 12:04:24.150 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateSalesList.checkSalesList is PASSED
+2026-02-12 12:04:24.161 DEBUG testcase.Create a Lead                   - 2: verifyElementText(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/txt_Leads"), "Leads")
+2026-02-12 12:04:26.906 DEBUG testcase.Create a Lead                   - 3: click(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/div_New"))
+2026-02-12 12:04:27.374 DEBUG testcase.Create a Lead                   - 4: waitForElementPresent(findTestObject("Sales/Lead/Page_New Lead Salesforce/txt_New Lead"), 10)
+2026-02-12 12:04:29.775 DEBUG testcase.Create a Lead                   - 5: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_Salutation"))
+2026-02-12 12:04:30.211 DEBUG testcase.Create a Lead                   - 6: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Mr"))
+2026-02-12 12:04:30.863 DEBUG testcase.Create a Lead                   - 7: salutation = getText(findTestObject("Sales/Lead/Page_New Lead Salesforce/span_Mr"))
+2026-02-12 12:04:31.393 DEBUG testcase.Create a Lead                   - 8: firstname = "test"
+2026-02-12 12:04:31.400 DEBUG testcase.Create a Lead                   - 9: lastname = "lead" + currentTimeMillis().intdiv(1000000)
+2026-02-12 12:04:31.450 DEBUG testcase.Create a Lead                   - 10: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_First Name"), firstname)
+2026-02-12 12:04:32.309 DEBUG testcase.Create a Lead                   - 11: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Last Name"), lastname)
+2026-02-12 12:04:33.561 DEBUG testcase.Create a Lead                   - 12: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input__Company"), "testcompany")
+2026-02-12 12:04:34.544 DEBUG testcase.Create a Lead                   - 13: setText(findTestObject("Sales/Lead/Page_New Lead Salesforce/input_Title"), "account manager")
+2026-02-12 12:04:35.564 DEBUG testcase.Create a Lead                   - 14: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Website"), "www.testcomp.com")
+2026-02-12 12:04:36.582 DEBUG testcase.Create a Lead                   - 15: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Phone"), "90443434343")
+2026-02-12 12:04:37.580 DEBUG testcase.Create a Lead                   - 16: email = "test" + lastname + "@gmail.com"
+2026-02-12 12:04:37.594 DEBUG testcase.Create a Lead                   - 17: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Email"), email)
+2026-02-12 12:04:38.653 DEBUG testcase.Create a Lead                   - 18: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Country"))
+2026-02-12 12:04:39.265 DEBUG testcase.Create a Lead                   - 19: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Afghanistan"))
+2026-02-12 12:04:39.949 DEBUG testcase.Create a Lead                   - 20: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/textarea_Street"), "dfdfdf")
+2026-02-12 12:04:41.015 DEBUG testcase.Create a Lead                   - 21: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_City"), "pune")
+2026-02-12 12:04:42.059 DEBUG testcase.Create a Lead                   - 22: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Zip_Postal Code"), "711101")
+2026-02-12 12:04:43.152 DEBUG testcase.Create a Lead                   - 23: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_No. of Employees"), "23")
+2026-02-12 12:04:44.104 DEBUG testcase.Create a Lead                   - 24: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Annual Revenue"), "500k")
+2026-02-12 12:04:45.130 DEBUG testcase.Create a Lead                   - 25: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_Lead Source"))
+2026-02-12 12:04:45.687 DEBUG testcase.Create a Lead                   - 26: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Employee Referral"))
+2026-02-12 12:04:46.812 DEBUG testcase.Create a Lead                   - 27: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_Industry"))
+2026-02-12 12:04:49.066 DEBUG testcase.Create a Lead                   - 28: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/dropdown_LeadSource"))
+2026-02-12 12:04:50.142 DEBUG testcase.Create a Lead                   - 29: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_SaveEdit"))
+2026-02-12 12:04:51.193 DEBUG testcase.Create a Lead                   - 30: verifyElementText(findTestObject("Contact/Page_Delete Contact/txt_Toaster Msg"), "Lead "" + salutation + " " + firstname + " " + lastname + "" was created.")
+2026-02-12 12:04:55.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead
+2026-02-12 12:04:55.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:04:55.451 DEBUG testcase.Create Lead                     - 3: callTestCase(findTestCase("TC_Salesforce/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE)
+2026-02-12 12:04:55.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:04:55.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Close application
+2026-02-12 12:04:55.709 DEBUG testcase.Close application               - 1: click(findTestObject("Object Repository/Page_LogOut Salesforce/span_uiImage"))
+2026-02-12 12:04:56.313 DEBUG testcase.Close application               - 2: click(findTestObject("Object Repository/Page_LogOut Salesforce/a_Log Out"))
+2026-02-12 12:04:58.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Close application
+2026-02-12 12:04:58.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:04:58.031 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+2026-02-12 12:04:58.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:04:58.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values
+2026-02-12 12:04:58.061 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-12 12:04:58.451 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-12 12:04:58.452 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-12 12:04:58.453 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 12, 2026 12:04:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-12 12:05:00.086 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9db300945a5cf67338d1683ba0d033ef
+2026-02-12 12:05:00.087 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-12 12:05:00.087 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-12 12:05:00.088 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-12 12:05:00.089 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-12 12:05:02.734 DEBUG t.Validate Lead Status Dropdown values   - 1: callTestCase(findTestCase("TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce"), [:], STOP_ON_FAILURE)
+2026-02-12 12:05:02.812 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:05:02.812 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:05:02.840 DEBUG testcase.Login into Salesforce           - 1: setText(findTestObject("Object Repository/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-12 12:05:03.810 DEBUG testcase.Login into Salesforce           - 2: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"))
+2026-02-12 12:05:04.213 DEBUG testcase.Login into Salesforce           - 3: setEncryptedText(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-12 12:05:04.634 DEBUG testcase.Login into Salesforce           - 4: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Login"))
+2026-02-12 12:05:06.767 DEBUG testcase.Login into Salesforce           - 5: maximizeWindow()
+2026-02-12 12:05:06.767 WARN  testcase.Login into Salesforce           - SKIPPED NOT_RUN: maximizeWindow()
+2026-02-12 12:05:06.774 DEBUG testcase.Login into Salesforce           - 6: waitForElementClickable(findTestObject("Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-12 12:05:37.424 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Web element with id: 'Object Repository/Page_Home  Salesforce/link_Home' located by 'By.xpath: //img[contains(@src,'EasyHome')]' not found
+2026-02-12 12:05:37.427 DEBUG testcase.Login into Salesforce           - 7: webKeywords.NavigateHomePage.checkHomePage()
+https://data-momentum-7717.my.salesforce.com/_ui/identity/verification/method/TotpVerificationUi/e?vcsrf=aSYRf_opt4bCdzQUSJT9VhsHuSgeyKhWaBshHaSya_3N3_j-FVliJe5J2wm-v4V_Kp1qLTFmHdOhif2-7iAD0o7mXGdKOmnSxrtK8vtg1P0ErZfWbUk_fQsIM-A_8w6H-GfMzI7HSGWBSsbq_ITUShdVjvYVoI62y8dgPKioPvR6gKDO1ghZelKWvwfMF2vouq-o-ttf8FzWdgbxhZdUXvF9dIHVmBZ5sAqZK7KlbQ_5Q-g-OtZdMMLNqLkE6UMtRkUKazZsugPiic3DWkHhapRvbm3xLH2iQqbOkX_kDzAKVSAq65bdSAUJOKzf7Ns4aGdY-sewwX-ZZPYGRJ00g-gPXoDIFMAdX2K7oDbe1VFk2J85A0YI3gTZUI0KrpqtCq-NwAkm1vXAhqZh-Y2Sv-JCi6fafarRVlDN24wZLon3WzweijdhjpFA7vTPtL5n2EKN27vGrdQIrvnkxjdk3dQcg4WSfXdM_4IwstVhuz0fTqqMbxSb2N8Yywmq1iy_tiHzU2F4qAqNcfpHOpYL0bFZGJ-EKydKsEODYWuNRZc_ZAMLmvdt46dEiQIi1OFEK1TR9IUGuDnv2DEIpHbhofKvi4ScEyCuVA8aYuEk4Z_SJxRt1eOTznoabQIIM5L7NT1iQCQr1SW2VOB8dgxIOwnQjxFg2plTQ3lyNJ8OKNo%3D&vpol=ic&vflid=0&vfgrp=1519405934&retURL=%2Fsecur%2Ffrontdoor.jsp%3Fallp%3D1%26cshc%3DN000009apEvN00000sn2rB%26apv%3D1%26display%3Dpage%26ucs%3D1&sfafb=2
+2026-02-12 12:05:51.654 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateHomePage.checkHomePage is PASSED
+2026-02-12 12:05:51.662 DEBUG testcase.Login into Salesforce           - 8: waitForElementVisible(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), 20)
+2026-02-12 12:05:54.959 DEBUG testcase.Login into Salesforce           - 9: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-12 12:05:55.602 DEBUG testcase.Login into Salesforce           - 10: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-12 12:05:56.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:05:56.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:05:56.090 DEBUG t.Validate Lead Status Dropdown values   - 2: callTestCase(findTestCase("TC_Salesforce/RecallTest/Lead/Validate Lead Status Dropdown Values"), [:], STOP_ON_FAILURE)
+2026-02-12 12:05:56.175 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:05:56.175 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/Lead/Validate Lead Status Dropdown Values
+2026-02-12 12:05:56.519 DEBUG t.Validate Lead Status Dropdown Values   - 1: webKeywords.NavigateSalesList.checkSalesList()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+2026-02-12 12:05:57.655 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateSalesList.checkSalesList is PASSED
+2026-02-12 12:05:57.659 DEBUG t.Validate Lead Status Dropdown Values   - 2: verifyElementText(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/txt_Leads"), "Leads")
+2026-02-12 12:05:59.579 DEBUG t.Validate Lead Status Dropdown Values   - 3: click(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/div_New"))
+2026-02-12 12:06:00.027 DEBUG t.Validate Lead Status Dropdown Values   - 4: waitForElementPresent(findTestObject("Sales/Lead/Page_New Lead Salesforce/txt_New Lead"), 10)
+2026-02-12 12:06:02.643 DEBUG t.Validate Lead Status Dropdown Values   - 5: click(findTestObject("Sales/Lead/Page_New Lead Salesforce/btn_Lead Status"))
+2026-02-12 12:06:03.078 DEBUG t.Validate Lead Status Dropdown Values   - 6: spanItems = findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Lead Status Values")
+2026-02-12 12:06:03.092 DEBUG t.Validate Lead Status Dropdown Values   - 7: elements = findWebElements(spanItems, 5)
+2026-02-12 12:06:03.790 DEBUG t.Validate Lead Status Dropdown Values   - 8: actualValues = []
+2026-02-12 12:06:03.796 DEBUG t.Validate Lead Status Dropdown Values   - 9: for (org.openqa.selenium.WebElement element : elements)
+2026-02-12 12:06:03.800 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.833 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.849 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.863 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.883 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.790 DEBUG t.Validate Lead Status Dropdown Values   - 8: actualValues = []
+2026-02-12 12:06:03.796 DEBUG t.Validate Lead Status Dropdown Values   - 9: for (org.openqa.selenium.WebElement element : elements)
+2026-02-12 12:06:03.800 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.833 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.849 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.863 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.883 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.916 DEBUG t.Validate Lead Status Dropdown Values   - 1: actualValues.add(getText().trim())
+2026-02-12 12:06:03.932 DEBUG t.Validate Lead Status Dropdown Values   - 10: expectedValues = ["--None--", "New", "Contacted", "Nurturing", "Qualified", "Unqualified"]
+2026-02-12 12:06:03.936 DEBUG t.Validate Lead Status Dropdown Values   - 11: verifyEqual(actualValues, expectedValues)
+2026-02-12 12:06:03.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/Lead/Validate Lead Status Dropdown Values
+2026-02-12 12:06:03.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:03.979 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values
+2026-02-12 12:06:03.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:03.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead
+2026-02-12 12:06:04.020 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-02-12 12:06:04.403 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-12 12:06:04.403 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-12 12:06:04.403 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 12, 2026 12:06:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-12 12:06:05.736 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 264704b4f2f48fa9e34e399afc8321be
+2026-02-12 12:06:05.738 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-12 12:06:05.740 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-12 12:06:05.740 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-12 12:06:05.744 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-12 12:06:08.253 DEBUG testcase.Change Status of Lead           - 1: callTestCase(findTestCase("TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce"), [:], STOP_ON_FAILURE)
+2026-02-12 12:06:08.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:08.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:06:08.343 DEBUG testcase.Login into Salesforce           - 1: setText(findTestObject("Object Repository/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-12 12:06:09.162 DEBUG testcase.Login into Salesforce           - 2: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"))
+2026-02-12 12:06:09.540 DEBUG testcase.Login into Salesforce           - 3: setEncryptedText(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-12 12:06:09.921 DEBUG testcase.Login into Salesforce           - 4: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Login"))
+2026-02-12 12:06:12.199 DEBUG testcase.Login into Salesforce           - 5: maximizeWindow()
+2026-02-12 12:06:12.201 WARN  testcase.Login into Salesforce           - SKIPPED NOT_RUN: maximizeWindow()
+2026-02-12 12:06:12.202 DEBUG testcase.Login into Salesforce           - 6: waitForElementClickable(findTestObject("Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-12 12:06:26.177 DEBUG testcase.Login into Salesforce           - 7: webKeywords.NavigateHomePage.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/o/Lead/list?filterName=Recent
+2026-02-12 12:06:27.250 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateHomePage.checkHomePage is PASSED
+2026-02-12 12:06:27.251 DEBUG testcase.Login into Salesforce           - 8: waitForElementVisible(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), 20)
+2026-02-12 12:06:31.185 DEBUG testcase.Login into Salesforce           - 9: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-12 12:06:31.684 DEBUG testcase.Login into Salesforce           - 10: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-12 12:06:31.979 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:06:31.989 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:31.993 DEBUG testcase.Change Status of Lead           - 2: callTestCase(findTestCase("TC_Salesforce/RecallTest/Lead/Change status from a Lead"), [:], STOP_ON_FAILURE)
+2026-02-12 12:06:32.072 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:32.072 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/Lead/Change status from a Lead
+2026-02-12 12:06:32.241 DEBUG testcase.Change status from a Lead       - 1: webKeywords.NavigateSalesList.checkSalesList()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+2026-02-12 12:06:33.357 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateSalesList.checkSalesList is PASSED
+2026-02-12 12:06:33.361 DEBUG testcase.Change status from a Lead       - 2: click(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/getLeadName"))
+2026-02-12 12:06:35.329 DEBUG testcase.Change status from a Lead       - 3: click(findTestObject("Sales/Lead/Page_Lead Details Salesforce/btn_LeadStatus"))
+2026-02-12 12:06:39.356 DEBUG testcase.Change status from a Lead       - 4: click(findTestObject("Sales/Lead/Page_Lead Details Salesforce/span_dropdown"))
+2026-02-12 12:06:40.317 DEBUG testcase.Change status from a Lead       - 5: click(findTestObject("Sales/Lead/Page_Lead Details Salesforce/span_Contacted"))
+2026-02-12 12:06:40.951 DEBUG testcase.Change status from a Lead       - 6: click(findTestObject("Sales/Lead/Page_Lead Details Salesforce/button_Save"))
+2026-02-12 12:06:41.565 DEBUG testcase.Change status from a Lead       - 7: delay(5)
+2026-02-12 12:06:46.616 DEBUG testcase.Change status from a Lead       - 8: verifyElementText(findTestObject("Sales/Lead/Page_Lead Details Salesforce/txt_Contacted"), "Contacted")
+2026-02-12 12:06:46.909 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/Lead/Change status from a Lead
+2026-02-12 12:06:46.909 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:46.910 DEBUG testcase.Change Status of Lead           - 3: callTestCase(findTestCase("TC_Salesforce/RecallTest/SetupTeardown/Close application"), [:], STOP_ON_FAILURE)
+2026-02-12 12:06:46.973 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:46.973 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Close application
+2026-02-12 12:06:46.993 DEBUG testcase.Close application               - 1: click(findTestObject("Object Repository/Page_LogOut Salesforce/span_uiImage"))
+2026-02-12 12:06:47.482 DEBUG testcase.Close application               - 2: click(findTestObject("Object Repository/Page_LogOut Salesforce/a_Log Out"))
+2026-02-12 12:06:49.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Close application
+2026-02-12 12:06:49.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:06:49.156 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead
+2026-02-12 12:06:49.158 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-12 12:06:49.158 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Lead
+2026-02-12 12:06:49.158 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

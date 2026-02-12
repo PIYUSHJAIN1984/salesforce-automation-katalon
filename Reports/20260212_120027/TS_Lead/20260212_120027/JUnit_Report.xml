@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Lead" time="71.317" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Lead" tests="3" failures="0" errors="0" time="71.317" skipped="3" timestamp="2026-02-12T06:30:44.030Z" hostname="PJain15 - SLB-G8JJX14.DIR.slb.com" id="Test Suites/TS_Lead">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\PJain15\\Katalon Studio\\salesforce-automation-katalon\\Reports\\20260212_120027\\TS_Lead\\20260212_120027"/>
+         <property name="logFiles" value="C:\\Users\\PJain15\\Katalon Studio\\salesforce-automation-katalon\\Reports\\20260212_120027\\TS_Lead\\20260212_120027\\console0.log, C:\\Users\\PJain15\\Katalon Studio\\salesforce-automation-katalon\\Reports\\20260212_120027\\TS_Lead\\20260212_120027\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PJain15\\Katalon Studio\\salesforce-automation-katalon\\Reports\\20260212_120027\\TS_Lead\\20260212_120027\\1770877914618.png, C:\\Users\\PJain15\\Katalon Studio\\salesforce-automation-katalon\\Reports\\20260212_120027\\TS_Lead\\20260212_120027\\1770877914845.png"/>
+         <property name="hostName" value="PJain15 - SLB-G8JJX14.DIR.slb.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.133"/>
+         <property name="userFullName" value="piyush jain"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="c812949c03c7fc4a63decd4f4a4388e6"/>
+         <property name="projectName" value="salesforce-katalon-sample"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Salesforce/MainTest/Lead/Create Lead" time="0.161" classname="Test Cases/TC_Salesforce/MainTest/Lead/Create Lead" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[12-02-2026T12:01:55 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce/MainTest/Lead/Create Lead: 
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("TestCaseName")): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - println("Skipping test case: " + testCaseContext.getTestCaseId()): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values" time="0.043" classname="Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[12-02-2026T12:01:55 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values: 
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("TestCaseName")): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - println("Skipping test case: " + testCaseContext.getTestCaseId()): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead" time="0.042" classname="Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead" status="SKIPPED">
+         <skipped message="Test was skipped"/>
+         <system-out><![CDATA[12-02-2026T12:01:55 - [TEST_CASE][SKIPPED] - Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead: 
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase3: null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("TestCaseName")): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (SKIP_REMAINING_TESTS == true): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - println("Skipping test case: " + testCaseContext.getTestCaseId()): null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+12-02-2026T12:01:55 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2026T12:00:44 - [TEST_SUITE][SKIPPED] - TS_Lead: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

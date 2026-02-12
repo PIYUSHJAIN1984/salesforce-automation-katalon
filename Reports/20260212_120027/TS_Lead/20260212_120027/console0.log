@@ -1,0 +1,348 @@
+2026-02-12 12:00:42.946 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\PJain15\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-02-12 12:00:42.954 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\PJain15\Katalon Studio\salesforce-automation-katalon\Include\config\log.properties
+2026-02-12 12:00:43.880 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Lead
+2026-02-12 12:00:44.111 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = piyush jain
+2026-02-12 12:00:44.114 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = salesforce-katalon-sample
+2026-02-12 12:00:44.115 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = PJain15 - SLB-G8JJX14.DIR.slb.com
+2026-02-12 12:00:44.116 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-12 12:00:44.116 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.7
+2026-02-12 12:00:44.117 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-02-12 12:00:44.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:00:44.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+2026-02-12 12:00:45.239 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-12 12:00:45.249 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-notifications]']
+2026-02-12 12:00:45.309 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 12, 2026 12:00:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-12 12:00:48.133 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c812949c03c7fc4a63decd4f4a4388e6
+2026-02-12 12:00:48.139 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-12 12:00:48.140 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-12 12:00:48.142 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-12 12:00:48.157 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-12 12:00:51.636 DEBUG testcase.Create Lead                     - 1: callTestCase(findTestCase("TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce"), [:], STOP_ON_FAILURE)
+2026-02-12 12:00:51.976 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:00:51.977 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:00:52.942 DEBUG testcase.Login into Salesforce           - 1: setText(findTestObject("Object Repository/Page_Login  Salesforce/input_Username"), USERNAME)
+2026-02-12 12:00:54.928 DEBUG testcase.Login into Salesforce           - 2: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"))
+2026-02-12 12:00:55.388 DEBUG testcase.Login into Salesforce           - 3: setEncryptedText(findTestObject("Object Repository/Page_Login  Salesforce/input_Password"), PASSWORD)
+2026-02-12 12:00:55.871 DEBUG testcase.Login into Salesforce           - 4: click(findTestObject("Object Repository/Page_Login  Salesforce/input_Login"))
+2026-02-12 12:00:58.328 DEBUG testcase.Login into Salesforce           - 5: maximizeWindow()
+2026-02-12 12:00:58.341 WARN  testcase.Login into Salesforce           - SKIPPED NOT_RUN: maximizeWindow()
+2026-02-12 12:00:58.346 DEBUG testcase.Login into Salesforce           - 6: waitForElementClickable(findTestObject("Page_Home  Salesforce/link_Home"), 30, STOP_ON_FAILURE)
+2026-02-12 12:01:12.046 DEBUG testcase.Login into Salesforce           - 7: webKeywords.NavigateHomePage.checkHomePage()
+https://data-momentum-7717.lightning.force.com/lightning/o/Lead/list?filterName=Recent
+2026-02-12 12:01:13.675 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateHomePage.checkHomePage is PASSED
+2026-02-12 12:01:13.683 DEBUG testcase.Login into Salesforce           - 8: waitForElementVisible(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), 20)
+2026-02-12 12:01:17.377 DEBUG testcase.Login into Salesforce           - 9: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/span_Home"), "Home")
+2026-02-12 12:01:18.104 DEBUG testcase.Login into Salesforce           - 10: verifyElementText(findTestObject("Object Repository/Page_Home  Salesforce/h2_Welcome, PIYUSH"), "Welcome, PIYUSH")
+2026-02-12 12:01:18.616 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce
+2026-02-12 12:01:18.616 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:01:18.640 DEBUG testcase.Create Lead                     - 2: callTestCase(findTestCase("TC_Salesforce/RecallTest/Lead/Create a Lead"), [:], STOP_ON_FAILURE)
+2026-02-12 12:01:18.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:01:18.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead
+2026-02-12 12:01:19.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) salutation = 
+2026-02-12 12:01:19.034 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) firstname = 
+2026-02-12 12:01:19.486 DEBUG testcase.Create a Lead                   - 1: webKeywords.NavigateSalesList.checkSalesList()
+https://data-momentum-7717.lightning.force.com/lightning/page/home
+2026-02-12 12:01:20.741 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - webKeywords.NavigateSalesList.checkSalesList is PASSED
+2026-02-12 12:01:20.747 DEBUG testcase.Create a Lead                   - 2: verifyElementText(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/txt_Leads"), "Leads")
+2026-02-12 12:01:22.725 DEBUG testcase.Create a Lead                   - 3: click(findTestObject("Sales/Lead/Page_All Open Leads  Leads  Salesforce/div_New"))
+2026-02-12 12:01:23.226 DEBUG testcase.Create a Lead                   - 4: waitForElementPresent(findTestObject("Sales/Lead/Page_New Lead Salesforce/txt_New Lead"), 10)
+2026-02-12 12:01:26.038 DEBUG testcase.Create a Lead                   - 5: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_Salutation"))
+2026-02-12 12:01:26.501 DEBUG testcase.Create a Lead                   - 6: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Mr"))
+2026-02-12 12:01:27.130 DEBUG testcase.Create a Lead                   - 7: salutation = getText(findTestObject("Sales/Lead/Page_New Lead Salesforce/span_Mr"))
+2026-02-12 12:01:27.547 DEBUG testcase.Create a Lead                   - 8: firstname = "test"
+2026-02-12 12:01:27.551 DEBUG testcase.Create a Lead                   - 9: lastname = "lead" + currentTimeMillis().intdiv(1000000)
+2026-02-12 12:01:27.589 DEBUG testcase.Create a Lead                   - 10: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_First Name"), firstname)
+2026-02-12 12:01:28.425 DEBUG testcase.Create a Lead                   - 11: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Last Name"), lastname)
+2026-02-12 12:01:29.513 DEBUG testcase.Create a Lead                   - 12: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input__Company"), "testcompany")
+2026-02-12 12:01:30.531 DEBUG testcase.Create a Lead                   - 13: setText(findTestObject("Sales/Lead/Page_New Lead Salesforce/input_Title"), "account manager")
+2026-02-12 12:01:31.658 DEBUG testcase.Create a Lead                   - 14: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Website"), "www.testcomp.com")
+2026-02-12 12:01:32.816 DEBUG testcase.Create a Lead                   - 15: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Phone"), "90443434343")
+2026-02-12 12:01:34.193 DEBUG testcase.Create a Lead                   - 16: email = "test" + lastname + "@gmail.com"
+2026-02-12 12:01:34.201 DEBUG testcase.Create a Lead                   - 17: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Email"), email)
+2026-02-12 12:01:35.688 DEBUG testcase.Create a Lead                   - 18: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Country"))
+2026-02-12 12:01:36.306 DEBUG testcase.Create a Lead                   - 19: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Afghanistan"))
+2026-02-12 12:01:36.772 DEBUG testcase.Create a Lead                   - 20: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/textarea_Street"), "dfdfdf")
+2026-02-12 12:01:38.071 DEBUG testcase.Create a Lead                   - 21: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_City"), "pune")
+2026-02-12 12:01:39.455 DEBUG testcase.Create a Lead                   - 22: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Zip_Postal Code"), "711101")
+2026-02-12 12:01:40.773 DEBUG testcase.Create a Lead                   - 23: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_No. of Employees"), "23")
+2026-02-12 12:01:42.048 DEBUG testcase.Create a Lead                   - 24: setText(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/input_Annual Revenue"), "500k")
+2026-02-12 12:01:43.097 DEBUG testcase.Create a Lead                   - 25: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_Lead Source"))
+2026-02-12 12:01:46.357 DEBUG testcase.Create a Lead                   - 26: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/span_Employee Referral"))
+2026-02-12 12:01:47.021 DEBUG testcase.Create a Lead                   - 27: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_Industry"))
+2026-02-12 12:01:47.697 DEBUG testcase.Create a Lead                   - 28: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/dropdown_LeadSource"))
+2026-02-12 12:01:48.338 DEBUG testcase.Create a Lead                   - 29: click(findTestObject("Object Repository/Sales/Lead/Page_New Lead Salesforce/button_SaveEdit"))
+2026-02-12 12:01:48.978 DEBUG testcase.Create a Lead                   - 30: verifyElementText(findTestObject("Contact/Page_Delete Contact/txt_Toaster Msg"), "Lead "" + salutation + " " + firstname + " " + lastname + "" was created.")
+2026-02-12 12:01:54.829 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Actual text 'It looks as if duplicates exist for this Lead. View Duplicates' and expected text 'Lead "Mr. test lead1770877" was created.' of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'It looks as if duplicates exist for this Lead. View Duplicates' and expected text 'Lead "Mr. test lead1770877" was created.' of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Create a Lead.run(Create a Lead:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Lead.run(Create Lead:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770877827928.run(TempTestSuite1770877827928.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-02-12 12:01:55.015 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Create a Lead.run(Create a Lead:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Lead.run(Create Lead:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770877827928.run(TempTestSuite1770877827928.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'It looks as if duplicates exist for this Lead. View Duplicates' and expected text 'Lead "Mr. test lead1770877" was created.' of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+)
+2026-02-12 12:01:55.030 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Create a Lead.run(Create a Lead:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Lead.run(Create Lead:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770877827928.run(TempTestSuite1770877827928.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'It looks as if duplicates exist for this Lead. View Duplicates' and expected text 'Lead "Mr. test lead1770877" was created.' of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+
+2026-02-12 12:01:55.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead
+2026-02-12 12:01:55.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:01:55.042 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to call Test Case 'Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Lead.run(Create Lead:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770877827928.run(TempTestSuite1770877827928.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Create a Lead.run(Create a Lead:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'It looks as if duplicates exist for this Lead. View Duplicates' and expected text 'Lead "Mr. test lead1770877" was created.' of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+)
+2026-02-12 12:01:55.051 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Salesforce/MainTest/Lead/Create Lead FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/TC_Salesforce/RecallTest/Lead/Create a Lead' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Create Lead.run(Create Lead:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1770877827928.run(TempTestSuite1770877827928.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Create a Lead.run(Create a Lead:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'It looks as if duplicates exist for this Lead. View Duplicates' and expected text 'Lead "Mr. test lead1770877" was created.' of test object 'Object Repository/Contact/Page_Delete Contact/txt_Toaster Msg' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+
+2026-02-12 12:01:55.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+2026-02-12 12:01:55.085 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:01:55.085 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+Skipping test case: Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+2026-02-12 12:01:55.246 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-02-12 12:01:55.246 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Create Lead
+2026-02-12 12:01:55.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:01:55.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values
+Skipping test case: Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values
+2026-02-12 12:01:55.293 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-02-12 12:01:55.297 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values
+2026-02-12 12:01:55.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-12 12:01:55.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead
+Skipping test case: Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead
+2026-02-12 12:01:55.343 WARN  c.k.katalon.core.main.TestCaseExecutor   - SKIPPED 
+2026-02-12 12:01:55.346 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead
+2026-02-12 12:01:55.347 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-12 12:01:55.347 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Lead
+2026-02-12 12:01:55.347 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

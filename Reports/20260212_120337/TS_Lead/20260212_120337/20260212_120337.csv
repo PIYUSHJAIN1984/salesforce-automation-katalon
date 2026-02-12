@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Lead,Chrome 144.0.7559.133,,,12-02-2026 12:03:47,12-02-2026 12:06:49,3m - 1.284s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce/MainTest/Lead/Create Lead,Chrome 144.0.7559.133,,,12-02-2026 12:03:48,12-02-2026 12:04:58,1m - 9.548s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,12-02-2026 12:03:48,12-02-2026 12:03:54,5.663s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:03:54,12-02-2026 12:04:21,27.510s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/Lead/Create a Lead""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:04:21,12-02-2026 12:04:55,33.513s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/SetupTeardown/Close application""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:04:55,12-02-2026 12:04:58,2.572s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,12-02-2026 12:04:58,12-02-2026 12:04:58,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce/MainTest/Lead/Validate Lead Status Dropdown values,Chrome 144.0.7559.133,,,12-02-2026 12:04:58,12-02-2026 12:06:03,1m - 5.942s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,12-02-2026 12:04:58,12-02-2026 12:05:02,4.530s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:05:02,12-02-2026 12:05:56,53.356s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/Lead/Validate Lead Status Dropdown Values""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:05:56,12-02-2026 12:06:03,7.886s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,12-02-2026 12:06:03,12-02-2026 12:06:03,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Salesforce/MainTest/Lead/Change Status of Lead,Chrome 144.0.7559.133,,,12-02-2026 12:06:03,12-02-2026 12:06:49,45.166s,PASSED
+Start listener action : sampleBeforeTestCase3,Chrome 144.0.7559.133,,,12-02-2026 12:06:04,12-02-2026 12:06:08,4.085s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:06:08,12-02-2026 12:06:31,23.740s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/Lead/Change status from a Lead""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:06:31,12-02-2026 12:06:46,14.917s,PASSED
+"callTestCase(findTestCase(""TC_Salesforce/RecallTest/SetupTeardown/Close application""), [:], STOP_ON_FAILURE)",Chrome 144.0.7559.133,,,12-02-2026 12:06:46,12-02-2026 12:06:49,2.241s,PASSED
+Start listener action : sampleAfterTestCase2,Chrome 144.0.7559.133,,,12-02-2026 12:06:49,12-02-2026 12:06:49,0.000s,PASSED

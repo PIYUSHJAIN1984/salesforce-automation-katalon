@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate Lead Status Dropdown values</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd70437b-00bb-453e-b4f8-d32d6f981647</testCaseGuid>
+</TestCaseEntity>
