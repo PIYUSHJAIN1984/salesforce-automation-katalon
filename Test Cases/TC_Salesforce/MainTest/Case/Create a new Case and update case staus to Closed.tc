@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Change the Lead Owner</name>
+   <name>Create a new Case and update case staus to Closed</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d02cf161-97f6-48d0-b125-733ce0eb2908</testCaseGuid>
+   <testCaseGuid>efc8c8f6-407d-4892-b154-3070d4f17e50</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Case Origin</name>
+   <tag></tag>
+   <elementGuidId>a87bd356-f342-4f75-9397-bc89874c2196</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-value=&quot;--None--&quot;] [part=&quot;input-button-value&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-value = '--None--']//*[@part = 'input-button-value']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox[name=&quot;Case Origin&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8763e2a4-95e2-4d3b-8180-f7872e34d308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+      <webElementGuid>ce65a988-b201-4c21-b2d5-44b4546e708b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>part</name>
+      <type>Main</type>
+      <value>input-button-value</value>
+      <webElementGuid>cec0d369-3c2c-46c0-bee4-445db0b8ac5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--None--</value>
+      <webElementGuid>8871cd20-767b-4276-9709-e740cfaa1b34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b3b70dab4bfc08251f6e478fcd879b4c</value>
+      <webElementGuid>301bcdc0-76eb-4252-8621-1275a083dd5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-value = '--None--']//*[@part = 'input-button-value']</value>
+      <webElementGuid>1b2248c8-4206-4f08-91f1-d52c492264d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-value = '--None--']//*[@part = 'input-button-value']</value>
+      <webElementGuid>aed34dfe-9996-49a1-8bb6-4383bd5a18f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '--None--' or . = '--None--')]</value>
+      <webElementGuid>5034e2ae-5747-483d-92f1-498cf119b062</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

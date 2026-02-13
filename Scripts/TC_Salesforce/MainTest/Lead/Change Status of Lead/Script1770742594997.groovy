@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Login in
 
 WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/Lead/Change status from a Lead'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Close application'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Close application'), [:], FailureHandling.STOP_ON_FAILURE)
 

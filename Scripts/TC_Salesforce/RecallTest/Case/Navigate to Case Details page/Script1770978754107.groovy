@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'webKeywords.NavigateServiceList.checkServiceList'()
 
-WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/Lead/Validate Lead Status Dropdown Values'), [:], FailureHandling.STOP_ON_FAILURE)
+CaseNo = WebUI.getText(findTestObject('Case/Page_Recently Viewed Case Salesforce/tr_CaseNo'))
 
-WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Close application'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Case/Page_Recently Viewed Case Salesforce/tr_CaseNo'))
+
+WebUI.verifyElementText(findTestObject('Case/Page_Case Details Salesforce/txt_CaseNo'), CaseNo)
 

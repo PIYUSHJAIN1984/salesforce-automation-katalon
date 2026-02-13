@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Service</name>
+   <tag></tag>
+   <elementGuidId>16419ed7-f48c-4afd-be6b-9adb97d528bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'EasyService')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.verticalNavMenuListItem:nth-child(3) [draggable=&quot;false&quot;][alt=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Accounts&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7de95ed3-c7b7-4ebe-92d7-d7acf2130490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>draggable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>092f6546-08c9-4286-9796-dd90744ece7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyAccounts/logo.png?v=254.4</value>
+      <webElementGuid>374ea9f6-a4f8-4815-a372-26e48921341e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3c5b7211e9d9f27af822d4d03157881a</value>
+      <webElementGuid>c53a40e0-7a83-4613-ad8f-8764882f1301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' verticalNavMenuListItem ') and (position() = 3)]//*[(@draggable = 'false') and (@alt = '')]</value>
+      <webElementGuid>90eb7c6a-1b0f-40a0-bf9c-2af278f1ed83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' verticalNavMenuListItem ') and (position() = 3)]//*[(@draggable = 'false') and (@alt = '')]</value>
+      <webElementGuid>934a9057-a89f-44ba-bd94-782ff14bd6a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://data-momentum-7717.my.salesforce.com/logos/Salesforce/EasyAccounts/logo.png?v=254.4']</value>
+      <webElementGuid>be9e958c-f4c0-4ca2-b447-3a96f32f606e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

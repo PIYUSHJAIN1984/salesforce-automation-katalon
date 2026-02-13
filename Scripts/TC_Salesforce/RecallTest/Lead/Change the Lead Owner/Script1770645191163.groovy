@@ -17,21 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Leads'))
+CustomKeywords.'webKeywords.NavigateSalesList.checkSalesList'()
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Sales/Lead/Page_All Open Leads  Leads  Salesforce/span_Select Lead'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Sales/Lead/Page_All Open Leads  Leads  Salesforce/btn_Change Owner'))
 
-WebUI.setText(findTestObject('null'), 
-    'Srivatsa ')
+WebUI.verifyElementText(findTestObject('Sales/Lead/Page_Change Owner Salesforce/txt_Change Owner'), 'Change Owner')
 
-WebUI.delay(4)
+WebUI.click(findTestObject('Sales/Lead/Page_Change Owner Salesforce/input_Search Users'))
 
-WebUI.enhancedClick(findTestObject('null', [('username') : 'Srivatsa']))
+WebUI.setText(findTestObject('Sales/Lead/Page_Change Owner Salesforce/input_Search Users'), 'Test UserOne')
 
-WebUI.click(findTestObject('null'))
+WebUI.sendKeys(findTestObject('Sales/Lead/Page_Change Owner Salesforce/input_Search Users'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementText(findTestObject('null'), 
-    '1 owner has been changed.')
+WebUI.verifyElementText(findTestObject('Sales/Lead/Page_Change Owner Salesforce/h1_User Results'), 'User Results')
+
+WebUI.click(findTestObject('Sales/Lead/Page_Change Owner Salesforce/a_UserName'))
+
+WebUI.verifyElementText(findTestObject('Sales/Lead/Page_Change Owner Salesforce/span_PillText'), 'Test UserOne')
+
+WebUI.click(findTestObject('Sales/Lead/Page_Change Owner Salesforce/span_Submit'))
+
+WebUI.verifyElementText(findTestObject('Sales/Lead/Page_All Open Leads  Leads  Salesforce/span_ToastMsg_ChangeOwner'), '1 owner has been changed.')
 

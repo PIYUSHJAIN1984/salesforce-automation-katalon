@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Login into Salesforce'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/Lead/Validate Lead Status Dropdown Values'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/Case/Create Case'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('TC_Salesforce/RecallTest/SetupTeardown/Close application'), [:], FailureHandling.STOP_ON_FAILURE)
 

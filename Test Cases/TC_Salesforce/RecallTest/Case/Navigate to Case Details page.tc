@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Change the Lead Owner</name>
+   <name>Navigate to Case Details page</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d02cf161-97f6-48d0-b125-733ce0eb2908</testCaseGuid>
+   <testCaseGuid>07ca7dd9-87e6-4b19-a503-3c7d460d8b42</testCaseGuid>
 </TestCaseEntity>

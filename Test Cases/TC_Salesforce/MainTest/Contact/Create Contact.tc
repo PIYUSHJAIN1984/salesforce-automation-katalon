@@ -6,10 +6,19 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e12e233e-3fe0-4619-a96e-9111796de992</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c98ba006-6907-4b56-a812-18543cb35579</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Contact</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>c98ba006-6907-4b56-a812-18543cb35579</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>accountName</value>
       <variableId>8449d6eb-a365-4818-b488-54723dac391b</variableId>
    </variableLinks>
    <variable>

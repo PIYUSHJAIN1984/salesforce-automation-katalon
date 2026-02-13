@@ -20,21 +20,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class NavigateContactList {
+public class NavigateServiceList {
 
-	// Post-login: Route user from default page to Contacts page.
 	@Keyword
-	def checkContactList() {
+	def checkServiceList() {
 		String currentUrl = WebUI.getUrl()
 		println currentUrl
-		String targetUrl = "https://data-momentum-7717.lightning.force.com/lightning/o/Contact/list?filterName=Recent"
+		String targetUrl = "https://data-momentum-7717.lightning.force.com/lightning/o/Case/list?filterName=Recent"
 
 		if (currentUrl.equals(targetUrl)) {
 			println "Already on the target URL. No click needed."
 		}else {
 			WebUI.enhancedClick(findTestObject('Object Repository/Page_Home  Salesforce/link_Home'))
-
-			WebUI.enhancedClick(findTestObject('Page_Home  Salesforce/img_Contacts'))
+			WebUI.enhancedClick(findTestObject('Object Repository/Page_Home  Salesforce/img_Service'))
 		}
 	}
 }

@@ -22,6 +22,8 @@ import internal.GlobalVariable
 
 public class NavigateAccountList {
 	
+	
+// Post-login: Route user from default page to Accounts page.
 	@Keyword
 	def checkAccountList() {
 		String currentUrl = WebUI.getUrl()

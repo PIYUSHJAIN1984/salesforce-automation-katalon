@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "A9E2DF761825811B2CF5A14F898B89AD",
+  "keywordFileContentHash": "2633ABEECE71DA897A174401D34A7CD6",
   "keywordClasses": [
     {
-      "name": "webKeywords.NavigateAccountList",
+      "name": "webKeywords.NavigateServiceList",
       "keywordMethods": [
         {
-          "name": "checkAccountList",
+          "name": "checkServiceList",
           "parameters": [],
           "javadoc": ""
         }
