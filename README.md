@@ -11,7 +11,7 @@ This repository contains a comprehensive automated testing suite for **Salesforc
 ## 🚀 Key Features & Capabilities
 I utilized advanced Katalon features to build automation test scripts and framework:
 
-* **Standard & Custom Objects:** Automated end-to-end flows for **Accounts**, **Contacts**, **Opportunities**, and **Leads** as well as specialized **Custom Objects**.
+* **Standard & Custom Objects:** Automated end-to-end flows for **Accounts**, **Contacts**, **Opportunities**, **Leads** and **Case** as well as specialized **Custom Objects**.
 * **Data-Driven Testing (DDT):** Integrated **Data Files** to execute test cases with multiple sets of data, increasing test coverage.
 * **Dynamic Locators:** Implemented robust XPath and CSS strategies to handle Salesforce's dynamic element IDs and complex DOM structures.
 * **Object Repository:** Maintained a clean, organized hierarchy of web elements for high reusability.
@@ -26,6 +26,7 @@ I utilized advanced Katalon features to build automation test scripts and framew
 | **Contacts** | Linking Contacts to Accounts, updating title of Contacts , Search and Deletion of contact records. | Web UI Keywords|
 | **Opportunities** | Create opportunity from Contact, Edit opportunity details, Search and deletion of opportunity. | Web UI Keywords |
 | **Leads** | Create Leads , validation of Lead Status dropdown values and change status of Lead. | Web UI Keywords |
+| **Case** | Create Case , update Case status for new or existing cases. | Web UI Keywords |
 | **Custom Objects** | Created customized xpaths for dynamic locators to avoid script maintenance. | Dynamic XPaths |
 
 ---
